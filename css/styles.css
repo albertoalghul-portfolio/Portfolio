@@ -185,8 +185,8 @@ body.is-home .home-social-block { display: flex; }
 }
 
 .social-icon-btn svg.icon-imdb {
-  width: 42px;
-  height: 21px;
+  width: 22px;
+  height: 22px;
 }
 
 .email-link {
@@ -256,6 +256,10 @@ body.is-home .home-social-block { display: flex; }
   border-radius: 2px;
 }
 
+/* Audiovisual y Publicaciones: formato A4 vertical */
+.works-grid.is-a4 .work-card,
+.related-works.is-a4 .related-thumb { aspect-ratio: 210 / 297; }
+
 .work-card img {
   width: 100%;
   height: 100%;
@@ -308,10 +312,12 @@ body.is-home .home-social-block { display: flex; }
   align-items: center;
   margin-bottom: 2rem;
   font-size: 0.95rem;
-  color: rgba(255, 255, 255, 0.7);
+  color: #ffffff;
+  /* Sombra para que se lea sobre fondos claros y oscuros */
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
-.work-detail-nav a:hover { color: #888888; text-decoration: underline; }
+.work-detail-nav a:hover { color: #bbbbbb; text-decoration: underline; }
 
 .media-nav {
   display: flex;
@@ -329,11 +335,11 @@ body.is-home .home-social-block { display: flex; }
   transition: color 0.3s ease;
 }
 
-.media-nav-btn:hover { color: #888888; text-decoration: underline; }
+.media-nav-btn:hover { color: #bbbbbb; text-decoration: underline; }
 
 .media-counter {
   font-size: 0.85rem;
-  color: var(--text-muted);
+  color: rgba(255, 255, 255, 0.85);
   min-width: 3rem;
   text-align: center;
 }
@@ -353,14 +359,11 @@ body.is-home .home-social-block { display: flex; }
 
 .media-slide[hidden] { display: none; }
 
+/* Descripción de la obra: sin recuadro, centrada bajo la imagen */
 .work-caption {
-  margin-top: 2.5rem;
-  padding: 1.5rem 1.75rem;
-  background: rgba(0, 0, 0, 0.65);
-  backdrop-filter: blur(8px);
-  -webkit-backdrop-filter: blur(8px);
-  border-left: 2px solid rgba(255, 255, 255, 0.4);
+  margin: 2.5rem auto 0;
   max-width: 720px;
+  text-shadow: 0 0 8px rgba(0, 0, 0, 0.95), 0 1px 3px rgba(0, 0, 0, 0.9);
 }
 
 .work-caption h2 {
@@ -373,7 +376,7 @@ body.is-home .home-social-block { display: flex; }
 
 .work-meta {
   font-size: 0.8rem;
-  color: #9ca3af;
+  color: #c4c4c4;
   margin: 0 0 0.75rem;
 }
 
@@ -390,10 +393,22 @@ body.is-home .home-social-block { display: flex; }
   border-top: 1px solid rgba(255, 255, 255, 0.12);
   font-size: 0.8rem;
   line-height: 1.6;
-  color: #b5b5b5;
+  color: #cfcfcf;
 }
 
 .work-details p { margin: 0 0 0.35rem; }
+
+/* Encabezados dentro de la ficha, como "Selecciones y reconocimientos" */
+.details-heading {
+  margin: 1.4rem 0 0.6rem;
+  padding-top: 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
 
 /* Miniaturas del resto de obras de la sección */
 .related-works {
