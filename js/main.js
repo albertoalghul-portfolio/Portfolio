@@ -144,7 +144,13 @@ function renderWork(section, work) {
   const total = work.media.length;
   const multi = total > 1;
   const others = worksOf(section.id).filter(w => w.slug !== work.slug);
-  const [mainText, ...details] = work.text || [];
+  /* La descripción es la primera línea que no es una ficha tipo "Edición: ..." o
+     "Reparto: ...". El resto (ficha técnica, créditos, premios) va debajo en pequeño. */
+  const lines = work.text || [];
+  const isLabel = (l) => /^[^.:]{2,40}:/.test(l);
+  const mainIdx = lines.findIndex(l => !isLabel(l));
+  const mainText = mainIdx >= 0 ? lines[mainIdx] : "";
+  const details = lines.filter((_, i) => i !== mainIdx);
 
   mainApp.innerHTML = `
     <div class="work-detail">
