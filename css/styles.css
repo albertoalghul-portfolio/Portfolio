@@ -137,6 +137,9 @@ body.is-home .logo-container {
   margin-bottom: 2rem;
 }
 
+/* En la portada el logo es solo una imagen: sin enlace ni oscurecido */
+body.is-home .logo-container { pointer-events: none; }
+
 body.is-home .logo-img {
   height: clamp(55px, 11vh, 110px);
   max-width: 85vw;
