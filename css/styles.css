@@ -29,6 +29,14 @@ body {
 a { color: inherit; text-decoration: none; }
 img { display: block; }
 
+/* Las imágenes no se pueden arrastrar ni seleccionar (ni mantener pulsado en móvil) */
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+}
+
 /* ==========================================================================
    FONDOS FIJOS
    ========================================================================== */
@@ -178,16 +186,16 @@ body.is-home .home-social-block { display: flex; }
   transform: translateY(-2px);
 }
 
-.social-icon-btn svg {
-  width: 20px;
-  height: 20px;
+.social-icon-btn svg,
+.social-icon-btn img {
+  width: 26px;
+  height: 26px;
   fill: currentColor;
 }
 
-.social-icon-btn svg.icon-imdb {
-  width: 22px;
-  height: 22px;
-}
+/* El logo de IMDb es una imagen: se oscurece igual que los demás iconos */
+.social-icon-btn img { opacity: 0.85; transition: filter 0.3s ease, opacity 0.3s ease; }
+.social-icon-btn:hover img { opacity: 1; filter: brightness(0.4); }
 
 .email-link {
   font-size: 0.95rem;
@@ -256,7 +264,7 @@ body.is-home .home-social-block { display: flex; }
   border-radius: 2px;
 }
 
-/* Audiovisual y Publicaciones: formato A4 vertical */
+/* Audiovisual, Publicaciones y Exposiciones: formato A4 vertical */
 .works-grid.is-a4 .work-card,
 .related-works.is-a4 .related-thumb { aspect-ratio: 210 / 297; }
 
