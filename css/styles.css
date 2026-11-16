@@ -1,0 +1,528 @@
+/* ==========================================================================
+   ESTILOS DE LA WEB
+   ========================================================================== */
+
+:root {
+  --header-height: 70px;
+  /* Altura del difuminado de las obras bajo el menú al hacer scroll */
+  --fade-height: 90px;
+  --font-serif: 'Mongolian Baiti', 'Playfair Display', Georgia, 'Times New Roman', serif;
+  --text: #eaeaea;
+  --text-soft: #d6d6d6;
+  --text-muted: rgba(255, 255, 255, 0.55);
+  --hover: #666666;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+  font-family: var(--font-serif);
+  background-color: #0b0b0b;
+  color: var(--text);
+  margin: 0;
+  overflow: hidden;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: inherit; text-decoration: none; }
+img { display: block; }
+
+/* ==========================================================================
+   FONDOS FIJOS
+   ========================================================================== */
+.bg-layer {
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.bg-layer.active { opacity: 1; }
+
+/* Velo oscuro para que se lea bien el texto */
+.bg-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  background: rgba(0, 0, 0, 0.25);
+  pointer-events: none;
+}
+
+/* ==========================================================================
+   CABECERA Y MENÚ
+   ========================================================================== */
+.main-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: var(--header-height);
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2.5rem;
+}
+
+.logo-container {
+  position: absolute;
+  left: 2.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.logo-img {
+  height: 28px;
+  width: auto;
+  transition: filter 0.3s ease;
+}
+
+.logo-container:hover .logo-img { filter: brightness(0.35); }
+
+.nav-menu ul {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-link {
+  color: #ffffff;
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+  transition: color 0.3s ease;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+}
+
+.nav-link:hover { color: #555555; }
+
+.nav-link.active {
+  font-weight: 600;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.7);
+  padding-bottom: 2px;
+}
+
+/* ==========================================================================
+   PORTADA (HOME)
+   ========================================================================== */
+body.is-home .main-header {
+  inset: 0;
+  height: 100%;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+body.is-home .logo-container {
+  position: relative;
+  left: auto;
+  top: auto;
+  transform: none;
+  margin-bottom: 2rem;
+}
+
+body.is-home .logo-img {
+  height: clamp(55px, 11vh, 110px);
+  max-width: 85vw;
+  object-fit: contain;
+}
+
+body.is-home .nav-menu { margin-bottom: 2.5rem; }
+
+body.is-home .nav-menu ul {
+  flex-direction: column;
+  gap: 1.1rem;
+  text-align: center;
+}
+
+body.is-home .nav-link {
+  font-size: 1.2rem;
+  letter-spacing: 0.06em;
+}
+
+body.is-home #main-content { display: none; }
+
+/* Redes sociales */
+.home-social-block {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+body.is-home .home-social-block { display: flex; }
+
+.social-links-list {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.social-icon-btn {
+  color: rgba(255, 255, 255, 0.85);
+  display: flex;
+  align-items: center;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.social-icon-btn:hover {
+  color: var(--hover);
+  transform: translateY(-2px);
+}
+
+.social-icon-btn svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
+.social-icon-btn svg.icon-imdb {
+  width: 42px;
+  height: 21px;
+}
+
+.email-link {
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.8);
+  letter-spacing: 0.04em;
+  transition: color 0.3s ease;
+}
+
+.email-link:hover { color: var(--hover); }
+
+/* ==========================================================================
+   ZONA DE CONTENIDO CON DIFUMINADO BAJO EL MENÚ
+   El contenido hace scroll dentro de esta capa; su parte superior se
+   desvanece gradualmente para que el menú siempre se lea sobre el fondo.
+   ========================================================================== */
+#main-content {
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+  padding: calc(var(--header-height) + 25px) 3rem 4rem;
+  --fade: linear-gradient(to bottom,
+    transparent 0,
+    transparent var(--header-height),
+    #000 calc(var(--header-height) + var(--fade-height)));
+  -webkit-mask-image: var(--fade);
+  mask-image: var(--fade);
+}
+
+.page-title {
+  font-size: 1.9rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0 0 1.5rem;
+}
+
+.empty-msg {
+  text-align: center;
+  padding: 5rem 0;
+  color: #777;
+}
+
+/* ==========================================================================
+   CUADRÍCULA DE OBRAS
+   ========================================================================== */
+.works-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 1.5rem 0;
+}
+
+.work-card {
+  position: relative;
+  flex: 0 0 290px;
+  width: 290px;
+  max-width: 100%;
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 2px;
+}
+
+.work-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.88);
+  transition: filter 0.45s ease, transform 0.6s ease;
+}
+
+/* Título semitransparente que se vuelve sólido al pasar el ratón */
+.work-card .title-overlay {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  color: #ffffff;
+  opacity: 0.35;
+  transition: opacity 0.4s ease, background 0.4s ease;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.95);
+  pointer-events: none;
+}
+
+.work-card:hover img {
+  filter: brightness(0.45);
+  transform: scale(1.03);
+}
+
+.work-card:hover .title-overlay {
+  opacity: 1;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* ==========================================================================
+   DETALLE DE OBRA
+   ========================================================================== */
+.work-detail {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+
+.work-detail-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 2rem;
+  font-size: 0.95rem;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.work-detail-nav a:hover { color: #888888; text-decoration: underline; }
+
+.media-nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.media-nav-btn {
+  background: none;
+  border: none;
+  padding: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.media-nav-btn:hover { color: #888888; text-decoration: underline; }
+
+.media-counter {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  min-width: 3rem;
+  text-align: center;
+}
+
+.work-media-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.media-slide {
+  max-width: 100%;
+  max-height: 78vh;
+  object-fit: contain;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+.media-slide[hidden] { display: none; }
+
+.work-caption {
+  margin-top: 2.5rem;
+  padding: 1.5rem 1.75rem;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border-left: 2px solid rgba(255, 255, 255, 0.4);
+  max-width: 720px;
+}
+
+.work-caption h2 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin: 0 0 0.25rem;
+}
+
+.work-meta {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  margin: 0 0 0.75rem;
+}
+
+.work-text {
+  font-size: 0.92rem;
+  line-height: 1.7;
+  color: var(--text-soft);
+  margin: 0;
+}
+
+.work-details {
+  margin-top: 1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: #b5b5b5;
+}
+
+.work-details p { margin: 0 0 0.35rem; }
+
+/* Miniaturas del resto de obras de la sección */
+.related-works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem 1.25rem;
+  margin-top: 4rem;
+  padding-top: 2.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.related-card {
+  flex: 0 0 150px;
+  width: 150px;
+  max-width: 100%;
+  color: #ffffff;
+}
+
+.related-thumb {
+  aspect-ratio: 4 / 5;
+  overflow: hidden;
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 2px;
+}
+
+.related-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.88);
+  transition: filter 0.4s ease, transform 0.5s ease;
+}
+
+.related-card:hover img {
+  filter: brightness(0.5);
+  transform: scale(1.04);
+}
+
+.related-title {
+  display: block;
+  margin-top: 0.6rem;
+  font-size: 0.85rem;
+  line-height: 1.3;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.95);
+  transition: color 0.3s ease;
+}
+
+.related-card:hover .related-title { color: #ffffff; }
+
+/* ==========================================================================
+   SOBRE MÍ
+   ========================================================================== */
+.bio-container {
+  max-width: 720px;
+  margin: 2rem auto;
+  line-height: 1.85;
+  font-size: 1.05rem;
+  color: var(--text-soft);
+}
+
+.bio-container > p { margin: 0 0 1.25rem; }
+
+.cv-btn {
+  display: inline-block;
+  margin: 1.5rem 0 2rem;
+  padding: 0.8rem 2rem;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  color: #fff;
+  font-size: 0.95rem;
+  letter-spacing: 0.06em;
+  transition: all 0.3s ease;
+}
+
+.cv-btn:hover { background: #ffffff; color: #000000; }
+
+.bio-contact {
+  margin-top: 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  font-size: 0.9rem;
+}
+
+.bio-contact a[href^="mailto"] { text-decoration: underline; margin-left: 0.25rem; }
+.bio-contact a[href^="mailto"]:hover { color: #9ca3af; }
+.bio-contact .social-links-list { margin-top: 1rem; }
+
+/* ==========================================================================
+   MÓVIL
+   ========================================================================== */
+.burger-btn {
+  display: none;
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.6rem;
+  cursor: pointer;
+  position: absolute;
+  right: 1.5rem;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 60;
+}
+
+@media (max-width: 960px) {
+  body:not(.is-home) .burger-btn { display: block; }
+
+  body:not(.is-home) .nav-menu {
+    display: none;
+    position: fixed;
+    inset: var(--header-height) 0 0 0;
+    background: rgba(10, 10, 10, 0.96);
+    backdrop-filter: blur(14px);
+    padding: 3rem 2rem;
+    z-index: 55;
+  }
+
+  body:not(.is-home) .nav-menu.open { display: block; }
+
+  body:not(.is-home) .nav-menu ul {
+    flex-direction: column;
+    gap: 1.75rem;
+  }
+
+  body:not(.is-home) .nav-link { font-size: 1.25rem; }
+
+  .logo-container { left: 1.25rem; }
+
+  #main-content { padding-left: 1rem; padding-right: 1rem; }
+}

@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alberto Alber | Artista Visual</title>
+  <meta name="description" content="Portfolio de Alberto Alber, artista visual. Fotografía analógica, escultura, audiovisual y proyectos editoriales.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="is-home">
+
+  <!-- Fondos fijos (uno por sección, con fundido suave al cambiar) -->
+  <div id="bg-layer-1" class="bg-layer active"></div>
+  <div id="bg-layer-2" class="bg-layer"></div>
+  <div class="bg-overlay"></div>
+
+  <!-- Cabecera: logo, menú y redes -->
+  <header class="main-header">
+    <a href="#/" class="logo-container" aria-label="Alberto Alber, inicio">
+      <img class="logo-img" src="img/logo.png" alt="Alberto Alber">
+    </a>
+
+    <button id="burger-toggle" class="burger-btn" aria-label="Abrir menú">☰</button>
+
+    <nav id="nav-menu" class="nav-menu">
+      <ul><!-- Se rellena desde js/main.js --></ul>
+    </nav>
+
+    <div class="home-social-block">
+      <a class="email-link" data-email></a>
+      <div class="social-links-list" data-social></div>
+    </div>
+  </header>
+
+  <!-- Contenido de cada página (secciones, obras, sobre mí) -->
+  <main id="main-content"></main>
+
+  <script src="js/config.js"></script>
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
