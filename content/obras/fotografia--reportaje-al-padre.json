@@ -1,0 +1,25 @@
+{
+  "publicada": true,
+  "titulo": "Reportaje al padre",
+  "seccion": "fotografia",
+  "orden": 130,
+  "anio": "2019",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/reportaje-al-padre/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/reportaje-al-padre/01.jpg",
+    "/img/fotografia/reportaje-al-padre/02.jpg",
+    "/img/fotografia/reportaje-al-padre/03.jpg",
+    "/img/fotografia/reportaje-al-padre/04.jpg",
+    "/img/fotografia/reportaje-al-padre/05.jpg",
+    "/img/fotografia/reportaje-al-padre/06.jpg",
+    "/img/fotografia/reportaje-al-padre/07.jpg"
+  ],
+  "texto": "Serie fotográfica ejecutada íntegramente en formato medio (120 mm), con procesos analógicos de revelado y positivado en blanco y negro realizados de forma autoral. El proyecto aborda la ausencia paterna y la dimensión espectral de la memoria familiar a través de una cartografía de los vacíos domésticos, los objetos inertes y las huellas sutiles que una persona deja en el espacio cuando ya no habita en él.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

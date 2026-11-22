@@ -1,0 +1,22 @@
+{
+  "publicada": true,
+  "titulo": "Ekpyrosis",
+  "seccion": "exposiciones",
+  "orden": 110,
+  "anio": "2023",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/ekpyrosis/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/ekpyrosis/02.jpg",
+    "/img/exposiciones/ekpyrosis/01.jpg",
+    "/img/exposiciones/ekpyrosis/03.jpg",
+    "/img/exposiciones/ekpyrosis/04.jpg"
+  ],
+  "texto": "Exposición individual. Cemento (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

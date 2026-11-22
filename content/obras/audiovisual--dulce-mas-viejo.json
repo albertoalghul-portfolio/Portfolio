@@ -1,0 +1,37 @@
+{
+  "publicada": true,
+  "titulo": "Dulce mas viejo",
+  "seccion": "audiovisual",
+  "orden": 100,
+  "anio": "2024",
+  "mostrarNombre": false,
+  "portada": "",
+  "miniatura": "/img/audiovisual/dulce-mas-viejo/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/dulce-mas-viejo/01.jpg",
+    "/img/audiovisual/dulce-mas-viejo/02.jpg",
+    "/img/audiovisual/dulce-mas-viejo/03.jpg",
+    "/img/audiovisual/dulce-mas-viejo/04.jpg",
+    "/img/audiovisual/dulce-mas-viejo/05.jpg",
+    "/img/audiovisual/dulce-mas-viejo/06.jpg",
+    "/img/audiovisual/dulce-mas-viejo/07.jpg",
+    "/img/audiovisual/dulce-mas-viejo/08.jpg",
+    "/img/audiovisual/dulce-mas-viejo/09.jpg",
+    "/img/audiovisual/dulce-mas-viejo/10.jpg",
+    "/img/audiovisual/dulce-mas-viejo/11.jpg",
+    "/img/audiovisual/dulce-mas-viejo/12.jpg",
+    "/img/audiovisual/dulce-mas-viejo/13.jpg",
+    "/img/audiovisual/dulce-mas-viejo/14.jpg"
+  ],
+  "texto": "Largometraje de ficción que retrata el aislamiento radical de un ermitaño sumido en el desencanto, cuya existencia transcurre entre el consumo de alcohol y la compañía fantasmal de un programa nocturno de videncia televisiva. La irrupción inesperada de su pasado le obliga a tomar una decisión límite entre asumir la misión de redimir su linaje familiar o entregarse definitivamente a un destino insustancial y crepuscular.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Producción: Cult Tourism y La Bestia.\nParticipación: Alberto Alber (jefatura de efectos especiales, fotografía fija y protagonismo).\nReparto y equipo técnico completo: Consultar registros oficiales en TMDB."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

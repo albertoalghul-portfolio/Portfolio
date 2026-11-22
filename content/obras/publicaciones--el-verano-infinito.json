@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "El verano infinito",
+  "seccion": "publicaciones",
+  "orden": 70,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/el-verano-infinito/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/el-verano-infinito/01.jpg"
+  ],
+  "texto": "Fotolibro que traduce en un formato de bolsillo la exploración fragmentaria y visceral de la adolescencia como archivo afectivo y colisión de la ansiedad y el deseo.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A6 | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

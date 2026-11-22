@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Autorretratos a partir de la rotura",
+  "seccion": "fotografia",
+  "orden": 90,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/autorretratos-a-partir-de-la-rotura/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/autorretratos-a-partir-de-la-rotura/01.jpg",
+    "/img/fotografia/autorretratos-a-partir-de-la-rotura/02.jpg",
+    "/img/fotografia/autorretratos-a-partir-de-la-rotura/03.jpg",
+    "/img/fotografia/autorretratos-a-partir-de-la-rotura/04.jpg",
+    "/img/fotografia/autorretratos-a-partir-de-la-rotura/05.jpg",
+    "/img/fotografia/autorretratos-a-partir-de-la-rotura/06.jpg"
+  ],
+  "texto": "Proyecto que hibrida los lenguajes de la fotografía y la escultura mediante el uso de moldes corporales deformados, vaciados en materiales tan diversos como la cera, la escayola o el propio cabello del autor. Las imágenes congelan una metamorfosis en la que la carne blanda y perecedera se transfigura en objeto inorgánico, explorando la pulsión de trascendencia, la huella epidérmica y la condición de la mortalidad frente a la caducidad biológica.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

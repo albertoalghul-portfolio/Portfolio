@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Estudio del cuerpo",
+  "seccion": "dibujo-y-pintura",
+  "orden": 10,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/estudio-del-cuerpo/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/estudio-del-cuerpo/01.jpg",
+    "/img/dibujo-y-pintura/estudio-del-cuerpo/02.jpg",
+    "/img/dibujo-y-pintura/estudio-del-cuerpo/03.jpg",
+    "/img/dibujo-y-pintura/estudio-del-cuerpo/04.jpg",
+    "/img/dibujo-y-pintura/estudio-del-cuerpo/05.jpg",
+    "/img/dibujo-y-pintura/estudio-del-cuerpo/06.jpg"
+  ],
+  "texto": "Conjunto de piezas pictóricas desarrolladas sobre soportes diversos que exploran la figuración, el retrato psicológico y la descomposición anatómica. La mancha, el uso de pigmentos densos y la atmósfera crepuscular dialogan con las constantes escultóricas del autor, entendiendo la pintura como un territorio de resistencia matérica y pulsión visceral.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

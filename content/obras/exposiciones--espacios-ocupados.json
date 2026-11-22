@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Espacios ocupados",
+  "seccion": "exposiciones",
+  "orden": 30,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/espacios-ocupados/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/espacios-ocupados/02.jpg",
+    "/img/exposiciones/espacios-ocupados/01.jpg",
+    "/img/exposiciones/espacios-ocupados/03.jpg"
+  ],
+  "texto": "Exposición colectiva. Sala Siroco (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,26 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 2",
+  "seccion": "dibujo-y-pintura",
+  "orden": 50,
+  "anio": "2022",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/marrano-2/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/marrano-2/02.jpg",
+    "/img/dibujo-y-pintura/marrano-2/03.jpg",
+    "/img/dibujo-y-pintura/marrano-2/01.jpg"
+  ],
+  "texto": "Páginas interiores y cubiertas ilustradas para el segundo número de la revista, consolidando una línea gráfica de dibujo incisivo y sátira visual.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: A4 | 60 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

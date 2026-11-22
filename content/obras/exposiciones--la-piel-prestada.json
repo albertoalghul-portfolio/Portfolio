@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "La piel prestada",
+  "seccion": "exposiciones",
+  "orden": 40,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/la-piel-prestada/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/la-piel-prestada/01.jpg",
+    "/img/exposiciones/la-piel-prestada/02.jpg",
+    "/img/exposiciones/la-piel-prestada/03.jpg",
+    "/img/exposiciones/la-piel-prestada/04.jpg",
+    "/img/exposiciones/la-piel-prestada/05.jpg",
+    "/img/exposiciones/la-piel-prestada/06.jpg",
+    "/img/exposiciones/la-piel-prestada/07.jpg",
+    "/img/exposiciones/la-piel-prestada/08.jpg",
+    "/img/exposiciones/la-piel-prestada/09.jpg",
+    "/img/exposiciones/la-piel-prestada/10.jpg"
+  ],
+  "texto": "Exposición individual. Cuenca.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

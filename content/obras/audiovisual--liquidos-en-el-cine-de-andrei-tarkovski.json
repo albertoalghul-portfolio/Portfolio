@@ -1,0 +1,31 @@
+{
+  "publicada": true,
+  "titulo": "Líquidos en el cine de Andréi Tarkovski",
+  "seccion": "audiovisual",
+  "orden": 70,
+  "anio": "2018",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/liquidos-en-el-cine-de-andrei-tarkovski/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/liquidos-en-el-cine-de-andrei-tarkovski/01.jpg",
+    "/img/audiovisual/liquidos-en-el-cine-de-andrei-tarkovski/02.jpg",
+    "/img/audiovisual/liquidos-en-el-cine-de-andrei-tarkovski/03.jpg"
+  ],
+  "texto": "Riguroso ejercicio de investigación fílmica y arqueología de archivo que explora la materialidad y el simbolismo de los fluidos en la filmografía del director ruso. A través de un montaje articulado en torno a la fluidez y la deriva visual, la pieza examina cómo el agua, la lluvia y los espejos acuáticos operan no solo como elementos atmosféricos, sino como el verdadero sustrato narrativo y metafísico de su obra.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Realización: Alberto Alber."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=NSOMWElplqA"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

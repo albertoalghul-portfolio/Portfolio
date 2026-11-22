@@ -1,0 +1,40 @@
+{
+  "publicada": true,
+  "titulo": "El lenguaje del dolor",
+  "seccion": "exposiciones",
+  "orden": 80,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/el-lenguaje-del-dolor/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/el-lenguaje-del-dolor/02.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/01.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/03.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/04.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/05.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/06.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/07.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/08.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/09.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/10.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/11.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/12.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/13.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/14.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/15.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/16.jpg",
+    "/img/exposiciones/el-lenguaje-del-dolor/17.jpg"
+  ],
+  "texto": "Exposición individual. Ateneo Libertario (Aranjuez).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": [
+    {
+      "texto": "FAL (CNT): inauguración en el Ateneo Libertario de Aranjuez",
+      "url": "https://fal.cnt.es/sabado-12-de-abril-inauguracion-en-el-ateneo-libertario-de-aranjuez-de-la-exposicion-el-lenguaje-del-dolor-de-alberto-alber/"
+    }
+  ]
+}

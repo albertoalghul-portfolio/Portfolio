@@ -1,0 +1,38 @@
+{
+  "imagenes": [
+    "/img/audiovisual/margot/01.jpg",
+    "/img/audiovisual/margot/02.jpg",
+    "/img/audiovisual/margot/03.jpg",
+    "/img/audiovisual/margot/04.jpg",
+    "/img/audiovisual/margot/05.jpg",
+    "/img/audiovisual/margot/06.jpg",
+    "/img/audiovisual/margot/07.jpg",
+    "/img/audiovisual/margot/08.jpg",
+    "/img/audiovisual/margot/09.jpg",
+    "/img/audiovisual/margot/10.jpg"
+  ],
+  "imdb": "",
+  "texto": "Cortometraje que disecciona el itinerario psicológico y moral de una joven tras una noche de excesos, atrapada en el bucle asfixiante de su inacción ante una situación límite. La culpa y los fantasmas de lo que pudo hacerse y se evitó configuran una deriva temporal de dos días donde el trauma se enquista en la cotidianidad. Estrenado en la I Edición del festival Arancine (Aranjuez).",
+  "mostrarNombre": true,
+  "orden": 20,
+  "encuadre": "50% 50%",
+  "anio": "2024",
+  "enlaces": [],
+  "publicada": true,
+  "seccion": "audiovisual",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Fotografía y efectos especiales: Alberto Alber (en colaboración con Sandra Arribas en FX).\nReparto principal: Margot Zaitseva, Adriana Cobos, Antonio de la Rosa, Felipe Miguel, Sav y equipo colaborador.\nAyudantía de dirección: David de la Vara, Tomás Follen y Eris Egaña.\nVestuario: Celia Higueras.\nMúsica: Rotten Parabrise."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=9GINv3UEsjk"
+    }
+  ],
+  "titulo": "Margot",
+  "miniatura": "/img/audiovisual/margot/portada.jpg",
+  "portada": ""
+}

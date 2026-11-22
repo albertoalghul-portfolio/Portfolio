@@ -1,0 +1,29 @@
+{
+  "publicada": true,
+  "titulo": "Zombi",
+  "seccion": "dibujo-y-pintura",
+  "orden": 60,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/zombi/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/zombi/02.jpg",
+    "/img/dibujo-y-pintura/zombi/03.jpg",
+    "/img/dibujo-y-pintura/zombi/04.jpg",
+    "/img/dibujo-y-pintura/zombi/05.jpg",
+    "/img/dibujo-y-pintura/zombi/06.jpg",
+    "/img/dibujo-y-pintura/zombi/01.jpg"
+  ],
+  "texto": "Ejercicios de dibujo y planchas fechadas originalmente en 2012 y continuadas en 2021, evidenciando la evolución gráfica y el trazo del autor a lo largo de una década.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: A5 | Portada a color, interiores en blanco y negro."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

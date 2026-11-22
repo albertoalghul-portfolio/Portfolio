@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Puto Gilipollas: Parusía",
+  "seccion": "publicaciones",
+  "orden": 100,
+  "anio": "2023",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/puto-gilipollas-parusia/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/puto-gilipollas-parusia/01.jpg"
+  ],
+  "texto": "Nueva entrega dentro de la saga de autoficción del personaje, que despliega situaciones cotidianas teñidas de extrañeza a través de una paleta formal expansiva y heterogénea.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A4 | 40 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

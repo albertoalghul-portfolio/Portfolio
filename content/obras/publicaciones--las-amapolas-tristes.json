@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Las amapolas tristes",
+  "seccion": "publicaciones",
+  "orden": 60,
+  "anio": "2023",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/las-amapolas-tristes/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/las-amapolas-tristes/01.jpg"
+  ],
+  "texto": "Obra fanzinesca y fotolibro que traduce en formato impreso la transición melancólica desde la urgencia adolescente hacia el desencanto adulto, disolviendo las fronteras entre Eros y Tánatos.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A6 | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Cicatriz",
+  "seccion": "fotografia",
+  "orden": 50,
+  "anio": "2025–2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/cicatriz/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/cicatriz/02.jpg",
+    "/img/fotografia/cicatriz/03.jpg",
+    "/img/fotografia/cicatriz/04.jpg"
+  ],
+  "texto": "Proyecto fotográfico que investiga el cuerpo no normativo y entiende la piel como un mapa topográfico e insurreccional. Mediante escaneados directos de marcas epidérmicas impresos sobre papel vegetal y acompañados de tipografía roja, la obra reivindica la herida como el archivo material de la experiencia y la ruina frente a los ideales de perfección corporal.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,46 @@
+{
+  "publicada": true,
+  "titulo": "Y Rosa",
+  "seccion": "audiovisual",
+  "orden": 10,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/y-rosa/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/y-rosa/01.jpg",
+    "/img/audiovisual/y-rosa/02.jpg",
+    "/img/audiovisual/y-rosa/03.jpg",
+    "/img/audiovisual/y-rosa/04.jpg",
+    "/img/audiovisual/y-rosa/05.jpg",
+    "/img/audiovisual/y-rosa/06.jpg"
+  ],
+  "texto": "Obra documental de profunda carga íntima que establece un diálogo especular entre pasado y presente a partir del archivo fotográfico y doméstico de la madre del autor. El filme trasciende la mera semblanza biográfica para interrogar el poder de la imagen técnica en la preservación, mutación y reinvención de la identidad frente al avance inexorable del tiempo.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Realización: Alberto Alber.\nProtagonismo: Rosa.\nDiseño de cartel: David Disculpas."
+    },
+    {
+      "titulo": "Selecciones y reconocimientos",
+      "lineas": "Primer premio y mejor montaje en el Mairena Film Festival.\nPrimer premio en Begiradak - Festival Internacional de Cine Amateur.\nGanador a la mejor obra documental internacional en el Festival Internacional de Cine y Multimedia (FECIMU).\nMención especial del jurado en el Festival de Cine Documental Alcances.\nSeleccionado en el Concurso Iberoamericano de Cortometrajes Versión Española (RTVE / SGAE).\nSeleccionado en: Mostra de Curtmetratges de Palafrugell, Zinema Sin Cinema, Ficnova, Ametlla Film Fest, Sahar International Short Film Festival, Festival Internacional de Cine de Engativá, Patrofest, València Indie Film Festival, Intermediaciones, Curt-Movie Barcelona y La Mirada Tabú."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": [
+    {
+      "texto": "RTVE: Versión Española emite los mejores cortos del XXIII Concurso Iberoamericano",
+      "url": "https://www.rtve.es/rtve/20260409/version-espanola-emite-mejores-cortos-del-xxiii-concurso-iberoamericano-cortometrajes-version-espanola-sgae/17015541.shtml"
+    },
+    {
+      "texto": "RTVE Play: Y Rosa (Somos Cine)",
+      "url": "https://www.rtve.es/play/videos/somos-cine/rosa-cortometraje/17073389/"
+    },
+    {
+      "texto": "FECIMU 2026: Y Rosa en la competencia internacional",
+      "url": "https://tallerimagen.com.ar/fecimu/y-rosa-competencia-internacional-fecimu-2026/"
+    }
+  ]
+}

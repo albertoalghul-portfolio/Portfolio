@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "Torsos",
+  "seccion": "escultura-e-instalacion",
+  "orden": 90,
+  "anio": "2018–",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/torsos/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/torsos/01.jpg",
+    "/img/escultura-e-instalacion/torsos/02.jpg",
+    "/img/escultura-e-instalacion/torsos/03.jpg",
+    "/img/escultura-e-instalacion/torsos/04.jpg",
+    "/img/escultura-e-instalacion/torsos/05.jpg",
+    "/img/escultura-e-instalacion/torsos/06.jpg",
+    "/img/escultura-e-instalacion/torsos/07.jpg",
+    "/img/escultura-e-instalacion/torsos/08.jpg",
+    "/img/escultura-e-instalacion/torsos/09.jpg",
+    "/img/escultura-e-instalacion/torsos/10.jpg"
+  ],
+  "texto": "Serie escultórica continuada que materializa la huella epidérmica mediante la aplicación directa de látex sobre moldes de escayola tomados del cuerpo de los modelos. Estas pieles autónomas funcionan como espectros tridimensionales que conservan la textura, los pliegues y la memoria formal de la carne.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

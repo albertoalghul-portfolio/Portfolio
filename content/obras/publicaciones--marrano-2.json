@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 2",
+  "seccion": "publicaciones",
+  "orden": 110,
+  "anio": "2022",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/marrano-2/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/marrano-2/01.jpg"
+  ],
+  "texto": "Tercer número de la revista colaborativa de cómic underground, que incrementa su paginación y profundiza en las derivas narrativas del humor negro y la sátira contemporánea.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A4 | 60 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

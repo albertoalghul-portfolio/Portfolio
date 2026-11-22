@@ -1,0 +1,26 @@
+{
+  "publicada": true,
+  "titulo": "Puto Gilipollas presenta: Historias de cuando todavía tenía pelo",
+  "seccion": "dibujo-y-pintura",
+  "orden": 20,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/puto-gilipollas-presenta-historias-de-cuando-todavia-tenia-pelo/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/puto-gilipollas-presenta-historias-de-cuando-todavia-tenia-pelo/01.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-presenta-historias-de-cuando-todavia-tenia-pelo/02.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-presenta-historias-de-cuando-todavia-tenia-pelo/03.jpg"
+  ],
+  "texto": "Compilación de historietas cortas y viñetas humorísticas de autoficción restauradas, originalmente concebidas para el entorno digital.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: 20 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

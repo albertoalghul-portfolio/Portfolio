@@ -1,0 +1,22 @@
+{
+  "publicada": true,
+  "titulo": "Mi relación con el suicidio",
+  "seccion": "exposiciones",
+  "orden": 150,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/mi-relacion-con-el-suicidio/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/mi-relacion-con-el-suicidio/01.jpg",
+    "/img/exposiciones/mi-relacion-con-el-suicidio/02.jpg",
+    "/img/exposiciones/mi-relacion-con-el-suicidio/03.jpg",
+    "/img/exposiciones/mi-relacion-con-el-suicidio/04.jpg"
+  ],
+  "texto": "Exposición individual. Facultad de Bellas Artes, UCLM (Cuenca).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

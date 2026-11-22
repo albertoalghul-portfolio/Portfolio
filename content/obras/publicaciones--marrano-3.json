@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 3",
+  "seccion": "publicaciones",
+  "orden": 90,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/marrano-3/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/marrano-3/01.jpg"
+  ],
+  "texto": "Cuarta entrega de la revista colaborativa de cómic underground, afianzando un espacio de resistencia gráfica y narrativa al margen de los circuitos comerciales.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Bancarrota* Ediciones.\nEspecificaciones técnicas: A4 | 64 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

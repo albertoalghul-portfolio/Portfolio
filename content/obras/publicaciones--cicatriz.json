@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Cicatriz",
+  "seccion": "publicaciones",
+  "orden": 10,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/cicatriz/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/cicatriz/01.jpg"
+  ],
+  "texto": "Fotozine centrado en la materialidad de la herida epidérmica, acompañado de un manifiesto textual sobre la disidencia de los cuerpos no normativos y la nueva carne.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Bancarrota* Ediciones.\nEspecificaciones técnicas: 10 × 14 cm | 16 páginas | Portada en blanco y negro, interiores a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

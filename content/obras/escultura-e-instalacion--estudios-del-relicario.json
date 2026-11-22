@@ -1,0 +1,22 @@
+{
+  "publicada": true,
+  "titulo": "Estudios del relicario",
+  "seccion": "escultura-e-instalacion",
+  "orden": 60,
+  "anio": "2024–",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/estudios-del-relicario/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/estudios-del-relicario/01.jpg",
+    "/img/escultura-e-instalacion/estudios-del-relicario/02.jpg",
+    "/img/escultura-e-instalacion/estudios-del-relicario/03.jpg",
+    "/img/escultura-e-instalacion/estudios-del-relicario/04.jpg"
+  ],
+  "texto": "Composiciones objetual-escultóricas elaboradas con látex y prótesis plásticas que reactualizan la tradición medieval de la devoción a las reliquias de los mártires. Despojadas de todo dogma religioso, estas estructuras operan como dispositivos profanos de adoración a la carne sintética, el sufrimiento y la reliquia hiperbólica.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

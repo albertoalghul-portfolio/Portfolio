@@ -1,0 +1,22 @@
+{
+  "publicada": true,
+  "titulo": "Entre raíz y ruina",
+  "seccion": "exposiciones",
+  "orden": 20,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/entre-raiz-y-ruina/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/entre-raiz-y-ruina/01.jpg",
+    "/img/exposiciones/entre-raiz-y-ruina/02.jpg",
+    "/img/exposiciones/entre-raiz-y-ruina/03.jpg",
+    "/img/exposiciones/entre-raiz-y-ruina/04.jpg"
+  ],
+  "texto": "Exposición colectiva. Sala Siroco (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

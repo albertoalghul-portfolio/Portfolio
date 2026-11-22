@@ -1,0 +1,27 @@
+{
+  "publicada": true,
+  "titulo": "Epidermis",
+  "seccion": "exposiciones",
+  "orden": 90,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/epidermis/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/epidermis/01.jpg",
+    "/img/exposiciones/epidermis/02.jpg",
+    "/img/exposiciones/epidermis/03.jpg",
+    "/img/exposiciones/epidermis/04.jpg",
+    "/img/exposiciones/epidermis/05.jpg",
+    "/img/exposiciones/epidermis/06.jpg",
+    "/img/exposiciones/epidermis/07.jpg",
+    "/img/exposiciones/epidermis/08.jpg",
+    "/img/exposiciones/epidermis/09.jpg"
+  ],
+  "texto": "Exposición individual. Cuenca.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

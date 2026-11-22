@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Retentivas de la memoria",
+  "seccion": "exposiciones",
+  "orden": 50,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/retentivas-de-la-memoria/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/retentivas-de-la-memoria/02.jpg",
+    "/img/exposiciones/retentivas-de-la-memoria/01.jpg",
+    "/img/exposiciones/retentivas-de-la-memoria/03.jpg"
+  ],
+  "texto": "Exposición colectiva. Espacio Amazonas (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

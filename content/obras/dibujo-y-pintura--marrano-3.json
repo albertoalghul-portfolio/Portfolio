@@ -1,0 +1,26 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 3",
+  "seccion": "dibujo-y-pintura",
+  "orden": 30,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/marrano-3/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/marrano-3/01.jpg",
+    "/img/dibujo-y-pintura/marrano-3/02.jpg",
+    "/img/dibujo-y-pintura/marrano-3/03.jpg"
+  ],
+  "texto": "Última entrega de la revista colaborativa, que incluye cubiertas, ilustraciones interiores y planchas de cómic de carácter experimental.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: A4 | 64 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

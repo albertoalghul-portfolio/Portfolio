@@ -1,0 +1,23 @@
+{
+  "publicada": true,
+  "titulo": "El olor a sangre no se me quita de los ojos",
+  "seccion": "fotografia",
+  "orden": 10,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/el-olor-a-sangre-no-se-me-quita-de-los-ojos/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/el-olor-a-sangre-no-se-me-quita-de-los-ojos/03.jpg",
+    "/img/fotografia/el-olor-a-sangre-no-se-me-quita-de-los-ojos/04.jpg",
+    "/img/fotografia/el-olor-a-sangre-no-se-me-quita-de-los-ojos/05.jpg",
+    "/img/fotografia/el-olor-a-sangre-no-se-me-quita-de-los-ojos/06.jpg",
+    "/img/fotografia/el-olor-a-sangre-no-se-me-quita-de-los-ojos/07.jpg"
+  ],
+  "texto": "Registro fotográfico de carácter forense e íntimo que documenta lesiones abiertas en personas del círculo cercano del autor. La serie propone una arqueología visceral de la carne y el traumatismo, entendiendo la sangre y la rotura tisular como documentos crudos de la existencia.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

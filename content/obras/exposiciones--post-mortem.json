@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Post-mortem",
+  "seccion": "exposiciones",
+  "orden": 160,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/post-mortem/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/post-mortem/01.jpg",
+    "/img/exposiciones/post-mortem/02.jpg",
+    "/img/exposiciones/post-mortem/03.jpg"
+  ],
+  "texto": "Exposición individual. Facultad de Bellas Artes, UCLM (Cuenca).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

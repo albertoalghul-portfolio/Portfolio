@@ -1,0 +1,29 @@
+{
+  "publicada": true,
+  "titulo": "El verano infinito",
+  "seccion": "fotografia",
+  "orden": 70,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/el-verano-infinito/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/el-verano-infinito/01.jpg",
+    "/img/fotografia/el-verano-infinito/02.jpg",
+    "/img/fotografia/el-verano-infinito/03.jpg",
+    "/img/fotografia/el-verano-infinito/04.jpg",
+    "/img/fotografia/el-verano-infinito/05.jpg",
+    "/img/fotografia/el-verano-infinito/06.jpg",
+    "/img/fotografia/el-verano-infinito/07.jpg",
+    "/img/fotografia/el-verano-infinito/08.jpg",
+    "/img/fotografia/el-verano-infinito/09.jpg",
+    "/img/fotografia/el-verano-infinito/10.jpg",
+    "/img/fotografia/el-verano-infinito/11.jpg"
+  ],
+  "texto": "Fotolibro que articula una aproximación fragmentaria, visceral y no lineal a la adolescencia, concebida no como un recuerdo ordenado, sino como un archivo afectivo turbulento. Las imágenes operan por acumulación y colisión formal, reflejando estados de deseo, ansiedad y la persistencia de la herida como una cicatriz imborrable en la memoria.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

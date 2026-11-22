@@ -1,0 +1,25 @@
+{
+  "publicada": true,
+  "titulo": "El olor a sangre no se me quita de los ojos",
+  "seccion": "publicaciones",
+  "orden": 20,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/el-olor-a-sangre-no-se-me-quita-de-los-ojos/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/el-olor-a-sangre-no-se-me-quita-de-los-ojos/02.jpg",
+    "/img/publicaciones/el-olor-a-sangre-no-se-me-quita-de-los-ojos/01.jpg"
+  ],
+  "texto": "Publicación de bolsillo concebida como un archivo visual de lesiones y traumatismos cutáneos, entendidos como la cartografía secreta de la carne.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Bancarrota* Ediciones.\nEspecificaciones técnicas: A6 | 24 páginas."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

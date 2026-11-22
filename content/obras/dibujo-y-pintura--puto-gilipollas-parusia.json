@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "Puto Gilipollas: Parusía",
+  "seccion": "dibujo-y-pintura",
+  "orden": 40,
+  "anio": "2023",
+  "mostrarNombre": false,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/puto-gilipollas-parusia/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/puto-gilipollas-parusia/02.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-parusia/03.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-parusia/04.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-parusia/05.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-parusia/01.jpg"
+  ],
+  "texto": "Nuevas planchas de cómic e ilustraciones de autoficción que despliegan una paleta gráfica heterogénea y expresista.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: A4 | 40 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

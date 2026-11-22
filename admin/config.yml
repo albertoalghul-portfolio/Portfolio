@@ -1,0 +1,182 @@
+# ===========================================================================
+# GESTOR DE CONTENIDOS (Decap CMS)
+# Define qué se puede editar desde /admin. Cada cambio que se guarda se
+# convierte en un commit en GitHub y Cloudflare vuelve a publicar la web.
+# ===========================================================================
+
+backend:
+  name: github
+  repo: albertoalghul-portfolio/Portfolio
+  branch: web-nueva
+  auth_endpoint: api/auth
+  commit_messages:
+    create: "Gestor: nueva obra {{slug}}"
+    update: "Gestor: cambios en {{slug}}"
+    delete: "Gestor: borrada {{slug}}"
+    uploadMedia: "Gestor: imagen {{path}}"
+    deleteMedia: "Gestor: borrada imagen {{path}}"
+
+# Solo para pruebas en el ordenador (npx decap-server); no afecta a la web publicada
+local_backend: true
+
+locale: es
+site_url: /
+display_url: /
+
+# Las imágenes que subas desde el gestor se guardan aquí y se optimizan al publicar
+media_folder: img/subidas
+public_folder: /img/subidas
+
+collections:
+
+  # -------------------------------------------------------------------------
+  - name: obras
+    label: Obras
+    label_singular: Obra
+    description: >
+      Todas las obras de la web. Usa «Agrupar por» → Sección para verlas por secciones.
+      El número de «Orden» decide la posición dentro de su sección (de menor a mayor).
+    folder: content/obras
+    extension: json
+    format: json
+    create: true
+    delete: true
+    slug: "{{seccion}}--{{slug}}"
+    identifier_field: titulo
+    summary: "{{titulo}}  ·  {{anio}}  ·  orden {{orden}}"
+    sortable_fields: [titulo, orden, anio]
+    view_groups:
+      - { label: Sección, field: seccion }
+      - { label: Publicada, field: publicada }
+    fields:
+      - { label: Publicada, name: publicada, widget: boolean, default: true,
+          hint: "Desactívalo para ocultar la obra de la web sin borrarla (por ejemplo, mientras la preparas)." }
+      - { label: Título, name: titulo, widget: string }
+      - label: Sección
+        name: seccion
+        widget: relation
+        collection: ajustes
+        file: secciones
+        search_fields: ["secciones.*.nombre"]
+        display_fields: ["secciones.*.nombre"]
+        value_field: "secciones.*.id"
+      - { label: Orden dentro de la sección, name: orden, widget: number, value_type: int, default: 100,
+          hint: "Las obras se muestran de menor a mayor. Usa saltos de 10 (10, 20, 30...) para poder intercalar obras después." }
+      - { label: Año, name: anio, widget: string, required: false, hint: "Por ejemplo: 2025, 2018–, 2025–2026" }
+      - { label: "Mostrar «Alberto Alber, año» bajo el título", name: mostrarNombre, widget: boolean, default: true,
+          hint: "Desactívalo en las obras que no has dirigido o firmado: solo se verá el año." }
+
+      - label: Imágenes de la obra
+        name: imagenes
+        widget: list
+        hint: "Arrastra para cambiar el orden. La primera es la que se ve al abrir la obra."
+        collapsed: false
+        field: { label: Imagen, name: imagen, widget: image, choose_url: false }
+
+      - { label: Portada en la página de sección, name: portada, widget: image, required: false,
+          hint: "La imagen que se ve en la cuadrícula de la sección. Si la dejas vacía se usa la miniatura actual o, si no hay, la primera imagen." }
+      - label: Encuadre de la portada
+        name: encuadre
+        widget: select
+        default: "50% 50%"
+        hint: "Si la portada se recorta, elige hacia dónde se desplaza."
+        options:
+          - { label: "Centro", value: "50% 50%" }
+          - { label: "Muy a la izquierda", value: "20% 50%" }
+          - { label: "Izquierda", value: "35% 50%" }
+          - { label: "Algo a la izquierda", value: "43% 50%" }
+          - { label: "Algo a la derecha", value: "57% 50%" }
+          - { label: "Derecha", value: "65% 50%" }
+          - { label: "Muy a la derecha", value: "80% 50%" }
+          - { label: "Arriba", value: "50% 20%" }
+          - { label: "Abajo", value: "50% 80%" }
+      - { label: "Miniatura actual (automática)", name: miniatura, widget: image, required: false,
+          hint: "Recorte que ya existía. No hace falta tocarla: si eliges una portada arriba, se ignora." }
+
+      - { label: Descripción, name: texto, widget: text, required: false,
+          hint: "El texto principal que aparece bajo el título." }
+      - label: Bloques de información
+        name: bloques
+        widget: list
+        required: false
+        summary: "{{fields.titulo}}"
+        hint: >
+          Ficha técnica, créditos, premios... Cada bloque puede tener un título
+          (por ejemplo «Selecciones y reconocimientos») y una línea por cada dato.
+          Arrastra para cambiar el orden.
+        fields:
+          - { label: Título del bloque (opcional), name: titulo, widget: string, required: false }
+          - { label: Líneas (una por renglón), name: lineas, widget: text }
+
+      - label: Botones de vídeo
+        name: videos
+        widget: list
+        required: false
+        summary: "{{fields.texto}}"
+        fields:
+          - { label: Texto del botón, name: texto, widget: string, default: "Ver vídeo" }
+          - { label: Enlace (YouTube, Vimeo...), name: url, widget: string }
+      - { label: Enlace de IMDb, name: imdb, widget: string, required: false,
+          hint: "Si lo rellenas aparece el botón «Ver en IMDb»." }
+      - label: Enlaces de interés
+        name: enlaces
+        widget: list
+        required: false
+        summary: "{{fields.texto}}"
+        fields:
+          - { label: Texto del enlace, name: texto, widget: string }
+          - { label: Dirección (https://...), name: url, widget: string }
+
+  # -------------------------------------------------------------------------
+  - name: ajustes
+    label: Ajustes de la web
+    editor: { preview: false }
+    files:
+      - name: sitio
+        label: Sobre mí, contacto y fondos
+        file: content/sitio.json
+        format: json
+        fields:
+          - { label: Nombre del artista, name: artista, widget: string }
+          - label: Biografía
+            name: bio
+            widget: list
+            hint: "Un elemento por párrafo. Arrastra para cambiar el orden."
+            collapsed: false
+            field: { label: Párrafo, name: parrafo, widget: text }
+          - label: Currículum (PDF)
+            name: cv
+            widget: file
+            required: false
+            choose_url: true
+            hint: "Sube el PDF del currículum. Es el botón «Descargar CV» de la página Sobre mí."
+          - label: Contacto y redes
+            name: contacto
+            widget: object
+            fields:
+              - { label: Email, name: email, widget: string }
+              - { label: Instagram, name: instagram, widget: string }
+              - { label: YouTube, name: youtube, widget: string }
+              - { label: IMDb, name: imdb, widget: string }
+          - { label: Fondo de la portada, name: fondoInicio, widget: image }
+          - { label: Fondo de Sobre mí, name: fondoSobreMi, widget: image }
+
+      - name: secciones
+        label: Secciones del menú
+        file: content/secciones.json
+        format: json
+        fields:
+          - label: Secciones
+            name: secciones
+            widget: list
+            summary: "{{fields.nombre}}"
+            hint: >
+              Arrastra para cambiar el orden del menú. «Sobre mí» siempre va al final.
+              Para crear una sección nueva, añádela aquí y luego asígnale obras.
+            fields:
+              - { label: Nombre en el menú, name: nombre, widget: string }
+              - { label: Identificador, name: id, widget: string, pattern: ["^[a-z0-9-]+$", "Solo minúsculas, números y guiones, sin espacios ni tildes (ej.: performance)"],
+                  hint: "Es lo que aparece en la dirección (#/fotografia). No lo cambies en secciones que ya tienen obras." }
+              - { label: Imagen de fondo, name: fondo, widget: image }
+              - { label: "Portadas en formato A4 vertical", name: formatoA4, widget: boolean, default: false,
+                  hint: "Actívalo para secciones con carteles o cubiertas." }

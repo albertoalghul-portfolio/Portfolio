@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "Vosotros que entráis",
+  "seccion": "publicaciones",
+  "orden": 30,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/vosotros-que-entrais/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/vosotros-que-entrais/05.jpg",
+    "/img/publicaciones/vosotros-que-entrais/01.jpg",
+    "/img/publicaciones/vosotros-que-entrais/02.jpg",
+    "/img/publicaciones/vosotros-que-entrais/03.jpg",
+    "/img/publicaciones/vosotros-que-entrais/04.jpg"
+  ],
+  "texto": "Investigación fanzinesca obsesiva que rastrea las huellas materiales del trauma criminal y el horror doméstico, desde las estancias de Jeffrey Dahmer hasta los vestigios tangibles asociados a la figura de Divine.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Bancarrota* Ediciones.\nEspecificaciones técnicas: A5 | 60 páginas | Blanco y negro / color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

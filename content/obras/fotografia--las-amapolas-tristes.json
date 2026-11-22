@@ -1,0 +1,27 @@
+{
+  "publicada": true,
+  "titulo": "Las amapolas tristes",
+  "seccion": "fotografia",
+  "orden": 60,
+  "anio": "2023",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/las-amapolas-tristes/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/las-amapolas-tristes/01.jpg",
+    "/img/fotografia/las-amapolas-tristes/02.jpg",
+    "/img/fotografia/las-amapolas-tristes/03.jpg",
+    "/img/fotografia/las-amapolas-tristes/04.jpg",
+    "/img/fotografia/las-amapolas-tristes/05.jpg",
+    "/img/fotografia/las-amapolas-tristes/06.jpg",
+    "/img/fotografia/las-amapolas-tristes/07.jpg",
+    "/img/fotografia/las-amapolas-tristes/08.jpg",
+    "/img/fotografia/las-amapolas-tristes/09.jpg"
+  ],
+  "texto": "Segundo fotolibro que funciona como continuación conceptual de la obra previa, desplazando el foco desde el fervor adolescente hacia el desencanto y la melancolía crepuscular. Tomando como metáfora botánica las amapolas que brotan al finalizar el estío, la estructura capitular disuelve las fronteras estrictas entre Eros y Tánatos para centrarse en la pura forma y el residuo emocional de la pérdida.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

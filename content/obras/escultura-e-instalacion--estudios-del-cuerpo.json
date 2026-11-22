@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Estudios del cuerpo",
+  "seccion": "escultura-e-instalacion",
+  "orden": 50,
+  "anio": "2024–",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/estudios-del-cuerpo/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/estudios-del-cuerpo/01.jpg",
+    "/img/escultura-e-instalacion/estudios-del-cuerpo/02.jpg",
+    "/img/escultura-e-instalacion/estudios-del-cuerpo/03.jpg",
+    "/img/escultura-e-instalacion/estudios-del-cuerpo/04.jpg",
+    "/img/escultura-e-instalacion/estudios-del-cuerpo/05.jpg",
+    "/img/escultura-e-instalacion/estudios-del-cuerpo/06.jpg"
+  ],
+  "texto": "Conjunto escultórico realizado mediante el ensamblaje de fragmentos corporales moldeados y descartes materiales procedentes de procesos de trabajo anteriores. Estas piezas, enmarcadas en soportes de madera recuperada o hallada en la basura, configuran una topografía de cuerpos híbridos donde la materia orgánica y los polímeros artificiales dialogan en un estado permanente de ruina y devenir, cuestionando el mito del cuerpo ideal.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

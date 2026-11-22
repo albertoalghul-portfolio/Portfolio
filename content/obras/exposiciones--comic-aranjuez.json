@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Cómic Aranjuez",
+  "seccion": "exposiciones",
+  "orden": 70,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/comic-aranjuez/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/comic-aranjuez/06.jpg",
+    "/img/exposiciones/comic-aranjuez/01.jpg",
+    "/img/exposiciones/comic-aranjuez/02.jpg",
+    "/img/exposiciones/comic-aranjuez/03.jpg",
+    "/img/exposiciones/comic-aranjuez/04.jpg",
+    "/img/exposiciones/comic-aranjuez/05.jpg"
+  ],
+  "texto": "Exposición colectiva. Cultura Postas (Aranjuez).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

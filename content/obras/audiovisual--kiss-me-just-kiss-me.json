@@ -1,0 +1,32 @@
+{
+  "publicada": true,
+  "titulo": "Kiss me, just kiss me",
+  "seccion": "audiovisual",
+  "orden": 50,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/kiss-me-just-kiss-me/portada.jpg",
+  "encuadre": "57% 50%",
+  "imagenes": [
+    "/img/audiovisual/kiss-me-just-kiss-me/01.jpg",
+    "/img/audiovisual/kiss-me-just-kiss-me/02.jpg",
+    "/img/audiovisual/kiss-me-just-kiss-me/03.jpg",
+    "/img/audiovisual/kiss-me-just-kiss-me/04.jpg"
+  ],
+  "texto": "Ensayo fílmico que compila y recontextualiza un archivo de fragmentos cinematográficos que sufrieron la tijera de la censura comercial durante la dictadura y la Transición en España. Mediante operaciones de montaje crítico, la obra despoja a las escenas de su narrativa original para aislar el gesto del beso, construyendo una arqueología política del deseo reprimido y evidenciando los mecanismos de control social sobre el cuerpo y la pantalla.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Realización: Alberto Alber."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=kH6Y4zpNrYc"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

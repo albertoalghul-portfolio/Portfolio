@@ -1,0 +1,34 @@
+{
+  "publicada": true,
+  "titulo": "¿Por qué quedamos?",
+  "seccion": "publicaciones",
+  "orden": 50,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/por-que-quedamos/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/por-que-quedamos/06.jpg",
+    "/img/publicaciones/por-que-quedamos/05.jpg",
+    "/img/publicaciones/por-que-quedamos/01.jpg",
+    "/img/publicaciones/por-que-quedamos/02.jpg",
+    "/img/publicaciones/por-que-quedamos/03.jpg",
+    "/img/publicaciones/por-que-quedamos/04.jpg"
+  ],
+  "texto": "Publicación monográfica que cristaliza una década de registro fotográfico íntimo en torno a la amistad, la noche, el deseo y la construcción de un territorio afectivo generacional.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Formidable Books.\nEspecificaciones técnicas: Tapa dura | 18 × 25 cm | 116 páginas | 104 fotografías | ISBN: 978-84-09-78804-0."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": [
+    {
+      "texto": "Formidable Books: ¿Por qué quedamos?",
+      "url": "https://www.formidablebooks.com/books/libro-book-por-que-quedamos-alberto-alber/"
+    }
+  ]
+}

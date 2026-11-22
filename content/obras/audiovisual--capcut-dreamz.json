@@ -1,0 +1,29 @@
+{
+  "publicada": true,
+  "titulo": "Capcut Dreamz",
+  "seccion": "audiovisual",
+  "orden": 90,
+  "anio": "2026 (en producción)",
+  "mostrarNombre": false,
+  "portada": "",
+  "miniatura": "/img/audiovisual/capcut-dreamz/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/capcut-dreamz/01.jpg",
+    "/img/audiovisual/capcut-dreamz/02.jpg",
+    "/img/audiovisual/capcut-dreamz/03.jpg",
+    "/img/audiovisual/capcut-dreamz/04.jpg",
+    "/img/audiovisual/capcut-dreamz/05.jpg",
+    "/img/audiovisual/capcut-dreamz/06.jpg"
+  ],
+  "texto": "",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección: David Disculpas.\nDirector de fotografía: Alberto Alber."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

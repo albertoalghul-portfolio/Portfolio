@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "Epidermis",
+  "seccion": "escultura-e-instalacion",
+  "orden": 20,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/epidermis/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/epidermis/01.jpg",
+    "/img/escultura-e-instalacion/epidermis/02.jpg",
+    "/img/escultura-e-instalacion/epidermis/03.jpg",
+    "/img/escultura-e-instalacion/epidermis/04.jpg",
+    "/img/escultura-e-instalacion/epidermis/05.jpg",
+    "/img/escultura-e-instalacion/epidermis/06.jpg",
+    "/img/escultura-e-instalacion/epidermis/07.jpg",
+    "/img/escultura-e-instalacion/epidermis/08.jpg",
+    "/img/escultura-e-instalacion/epidermis/09.jpg",
+    "/img/escultura-e-instalacion/epidermis/10.jpg"
+  ],
+  "texto": "Instalación matérica presentada de forma homónima en su exposición en Cuenca, centrada en la piel como frontera lábil y territorio arqueológico. La obra desborda el plano bidimensional de la fotografía para erigirse como un campo de vaciados epidérmicos y membranas donde se experimenta la fragilidad de los tejidos, la descomposición y el rastro táctil de la corporalidad contemporánea.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

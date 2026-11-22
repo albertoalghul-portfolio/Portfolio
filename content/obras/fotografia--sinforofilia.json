@@ -1,0 +1,23 @@
+{
+  "publicada": true,
+  "titulo": "Sinforofilia",
+  "seccion": "fotografia",
+  "orden": 30,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/sinforofilia/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/sinforofilia/05.jpg",
+    "/img/fotografia/sinforofilia/01.jpg",
+    "/img/fotografia/sinforofilia/02.jpg",
+    "/img/fotografia/sinforofilia/03.jpg",
+    "/img/fotografia/sinforofilia/04.jpg"
+  ],
+  "texto": "Serie que plantea una intersección radical entre el erotismo industrial y la vulnerabilidad de la carne. Las impresiones fotográficas de cuerpos desnudos sobre delicado papel vegetal se superponen de manera física a imágenes de archivo de siniestros automovilísticos, generando un dispositivo visual donde la violencia mecánica de la chatarra y la pulsión erótica se hibridan como síntomas del deseo contemporáneo.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Ars Moriendi",
+  "seccion": "exposiciones",
+  "orden": 100,
+  "anio": "2023",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/ars-moriendi/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/ars-moriendi/01.jpg",
+    "/img/exposiciones/ars-moriendi/02.jpg",
+    "/img/exposiciones/ars-moriendi/03.jpg"
+  ],
+  "texto": "Exposición individual. Cemento (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

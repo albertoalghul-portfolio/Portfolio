@@ -1,0 +1,23 @@
+{
+  "publicada": true,
+  "titulo": "Delirios de una quimera",
+  "seccion": "exposiciones",
+  "orden": 10,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/delirios-de-una-quimera/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/delirios-de-una-quimera/01.jpg",
+    "/img/exposiciones/delirios-de-una-quimera/02.jpg",
+    "/img/exposiciones/delirios-de-una-quimera/03.jpg",
+    "/img/exposiciones/delirios-de-una-quimera/04.jpg",
+    "/img/exposiciones/delirios-de-una-quimera/05.jpg"
+  ],
+  "texto": "Exposición colectiva. Sala Siroco (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

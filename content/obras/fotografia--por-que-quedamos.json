@@ -1,0 +1,42 @@
+{
+  "publicada": true,
+  "titulo": "¿Por qué quedamos?",
+  "seccion": "fotografia",
+  "orden": 40,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/por-que-quedamos/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/por-que-quedamos/01.jpg",
+    "/img/fotografia/por-que-quedamos/02.jpg",
+    "/img/fotografia/por-que-quedamos/03.jpg",
+    "/img/fotografia/por-que-quedamos/04.jpg",
+    "/img/fotografia/por-que-quedamos/05.jpg",
+    "/img/fotografia/por-que-quedamos/06.jpg",
+    "/img/fotografia/por-que-quedamos/07.jpg",
+    "/img/fotografia/por-que-quedamos/08.jpg",
+    "/img/fotografia/por-que-quedamos/09.jpg",
+    "/img/fotografia/por-que-quedamos/10.jpg",
+    "/img/fotografia/por-que-quedamos/11.jpg",
+    "/img/fotografia/por-que-quedamos/12.jpg",
+    "/img/fotografia/por-que-quedamos/13.jpg",
+    "/img/fotografia/por-que-quedamos/14.jpg",
+    "/img/fotografia/por-que-quedamos/15.jpg",
+    "/img/fotografia/por-que-quedamos/16.jpg",
+    "/img/fotografia/por-que-quedamos/17.jpg",
+    "/img/fotografia/por-que-quedamos/18.jpg",
+    "/img/fotografia/por-que-quedamos/19.jpg"
+  ],
+  "texto": "Diario visual monumental construido a partir de un archivo personal acumulado durante una década y editado por Formidable Books. El volumen reúne imágenes capturadas con diversos dispositivos en un trabajo de campo íntimo donde el fotógrafo se inscribe dentro de la propia escena. La obra retrata el ecosistema afectivo de amigos, amantes y compañeros artistas, configurando un retrato generacional desde los márgenes que funde el documento cotidiano con la construcción mítica de la libertad y la intimidad.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": [
+    {
+      "texto": "Formidable Books: ¿Por qué quedamos?",
+      "url": "https://www.formidablebooks.com/books/libro-book-por-que-quedamos-alberto-alber/"
+    }
+  ]
+}

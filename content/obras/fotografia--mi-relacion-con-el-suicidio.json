@@ -1,0 +1,23 @@
+{
+  "publicada": true,
+  "titulo": "Mi relación con el suicidio",
+  "seccion": "fotografia",
+  "orden": 100,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/mi-relacion-con-el-suicidio/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/mi-relacion-con-el-suicidio/01.jpg",
+    "/img/fotografia/mi-relacion-con-el-suicidio/02.jpg",
+    "/img/fotografia/mi-relacion-con-el-suicidio/03.jpg",
+    "/img/fotografia/mi-relacion-con-el-suicidio/04.jpg",
+    "/img/fotografia/mi-relacion-con-el-suicidio/05.jpg"
+  ],
+  "texto": "Instalación fotográfica y textual de carácter sobrio y clínico, compuesta por cinco impresiones en blanco y negro sobre marco de cristal (40 × 40 cm) y textos manuscritos sobre cartulina (20 × 20 cm). La pieza yuxtapone la simulación y la verdad al recrear de forma escénica los métodos o intentos de suicidio de personas del entorno cercano del autor, combinando la ficción visual con el testimonio crudo sobre la muerte voluntaria y el duelo colectivo.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

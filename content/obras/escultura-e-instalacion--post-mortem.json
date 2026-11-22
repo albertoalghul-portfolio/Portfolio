@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Post-mortem",
+  "seccion": "escultura-e-instalacion",
+  "orden": 80,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/post-mortem/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/post-mortem/01.jpg",
+    "/img/escultura-e-instalacion/post-mortem/02.jpg",
+    "/img/escultura-e-instalacion/post-mortem/03.jpg"
+  ],
+  "texto": "Instalación conceptual de fuerte carga autobiográfica que yuxtapone los documentos legales de inicio y fin de la vida (partida de nacimiento y certificado de defunción del padre del autor) junto a una caja de cartón contenedora de sus escasas pertenencias inermes y restos óseos momificados. La obra equipara la estructura de acumulación afectiva de un cementerio con la de un trastero doméstico, expandiendo los planteamientos museísticos y clínicos del Post-Partum Document de Mary Kelly hacia el terreno de la pérdida filial y los despojos del patriarcado.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

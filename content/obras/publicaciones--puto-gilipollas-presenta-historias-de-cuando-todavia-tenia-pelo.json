@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Puto Gilipollas presenta: Historias de cuando todavía tenía pelo",
+  "seccion": "publicaciones",
+  "orden": 80,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/puto-gilipollas-presenta-historias-de-cuando-todavia-tenia-pelo/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/puto-gilipollas-presenta-historias-de-cuando-todavia-tenia-pelo/01.jpg"
+  ],
+  "texto": "Recopilación impresa de historietas breves de autoficción rescatadas de las publicaciones digitales del autor en redes sociales.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Bancarrota* Ediciones.\nEspecificaciones técnicas: 20 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

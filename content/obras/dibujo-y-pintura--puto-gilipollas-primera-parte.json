@@ -1,0 +1,27 @@
+{
+  "publicada": true,
+  "titulo": "Puto Gilipollas: Primera parte",
+  "seccion": "dibujo-y-pintura",
+  "orden": 80,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/puto-gilipollas-primera-parte/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/puto-gilipollas-primera-parte/01.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-primera-parte/03.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-primera-parte/04.jpg",
+    "/img/dibujo-y-pintura/puto-gilipollas-primera-parte/02.jpg"
+  ],
+  "texto": "Recopilación de dibujos y planchas de autoficción protagonizadas por el alter ego del autor, explorando múltiples registros plásticos, tintas y técnicas de ilustración narrativa.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: A4 | 40 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

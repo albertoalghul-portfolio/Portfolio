@@ -1,0 +1,40 @@
+{
+  "secciones": [
+    {
+      "id": "audiovisual",
+      "nombre": "Audiovisual",
+      "fondo": "/img/fondos/audiovisual.jpg",
+      "formatoA4": true
+    },
+    {
+      "id": "escultura-e-instalacion",
+      "nombre": "Escultura e Instalación",
+      "fondo": "/img/fondos/escultura-e-instalacion.jpg",
+      "formatoA4": false
+    },
+    {
+      "id": "fotografia",
+      "nombre": "Fotografía",
+      "fondo": "/img/fondos/fotografia.jpg",
+      "formatoA4": false
+    },
+    {
+      "id": "dibujo-y-pintura",
+      "nombre": "Dibujo y pintura",
+      "fondo": "/img/fondos/dibujo-y-pintura.jpg",
+      "formatoA4": false
+    },
+    {
+      "id": "publicaciones",
+      "nombre": "Publicaciones",
+      "fondo": "/img/fondos/publicaciones.jpg",
+      "formatoA4": true
+    },
+    {
+      "id": "exposiciones",
+      "nombre": "Exposiciones",
+      "fondo": "/img/fondos/exposiciones.jpg",
+      "formatoA4": true
+    }
+  ]
+}

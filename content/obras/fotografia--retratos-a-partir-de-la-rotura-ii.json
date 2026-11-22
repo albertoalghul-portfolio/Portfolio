@@ -1,0 +1,20 @@
+{
+  "publicada": true,
+  "titulo": "Retratos a partir de la rotura II",
+  "seccion": "fotografia",
+  "orden": 120,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/retratos-a-partir-de-la-rotura-ii/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/retratos-a-partir-de-la-rotura-ii/01.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-ii/02.jpg"
+  ],
+  "texto": "Segunda fase del proyecto escultórico-fotográfico, ejecutada en color sobre soporte analógico de 120 mm. En esta serie, interrumpida por la pandemia, la investigación expande sus registros hacia la iconografía sacra y la tradición de la reliquia religiosa, entrelazando mitos corporales, disidencias de género y nuevas formas de devoción profana.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

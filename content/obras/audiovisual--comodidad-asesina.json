@@ -1,0 +1,27 @@
+{
+  "publicada": true,
+  "titulo": "Comodidad asesina",
+  "seccion": "audiovisual",
+  "orden": 110,
+  "anio": "2026 (en producción)",
+  "mostrarNombre": false,
+  "portada": "",
+  "miniatura": "/img/audiovisual/comodidad-asesina/portada.jpg",
+  "encuadre": "20% 50%",
+  "imagenes": [
+    "/img/audiovisual/comodidad-asesina/01.jpg",
+    "/img/audiovisual/comodidad-asesina/02.jpg",
+    "/img/audiovisual/comodidad-asesina/03.jpg",
+    "/img/audiovisual/comodidad-asesina/04.jpg"
+  ],
+  "texto": "",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección: Tomás Carrascosa.\nDirector de fotografía y jefe de FX: Alberto Alber."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

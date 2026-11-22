@@ -1,0 +1,39 @@
+{
+  "publicada": true,
+  "titulo": "Lazos fraternales",
+  "seccion": "audiovisual",
+  "orden": 60,
+  "anio": "2018",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/lazos-fraternales/portada.jpg",
+  "encuadre": "43% 50%",
+  "imagenes": [
+    "/img/audiovisual/lazos-fraternales/01.jpg",
+    "/img/audiovisual/lazos-fraternales/02.jpg",
+    "/img/audiovisual/lazos-fraternales/03.jpg"
+  ],
+  "texto": "Trilogía audiovisual centrada en la anatomía de los vínculos consanguíneos, rodada íntegramente con intérpretes reales bajo una metodología de improvisación radical desprovista de guion previo. La cámara registra las dinámicas afectivas, de tensión y afecto entre hermanas, convirtiendo el soporte fílmico en un territorio de escucha y colisión espontánea donde la ficción y la biografía se solapan de manera simbiótica.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección: Alberto Alber y Sara Navarro.\nReparto: Duna García, Leire García, María Paula Jiménez, Andrea Sánchez, Ainhoa Sánchez y Elena Marín."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver parte 1",
+      "url": "https://www.youtube.com/watch?v=uKY9CZBGbkM"
+    },
+    {
+      "texto": "Ver parte 2",
+      "url": "https://www.youtube.com/watch?v=PYc2xf1D7ds"
+    },
+    {
+      "texto": "Ver parte 3",
+      "url": "https://www.youtube.com/watch?v=aPCEXqhNBn8"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

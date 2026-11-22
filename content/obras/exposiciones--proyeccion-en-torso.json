@@ -1,0 +1,19 @@
+{
+  "publicada": true,
+  "titulo": "Proyección en torso",
+  "seccion": "exposiciones",
+  "orden": 140,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/proyeccion-en-torso/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/proyeccion-en-torso/01.jpg"
+  ],
+  "texto": "Exposición individual. Facultad de Bellas Artes, UCLM (Cuenca).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

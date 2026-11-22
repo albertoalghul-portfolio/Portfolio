@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex">
+  <title>Gestor de contenidos | Alberto Alber</title>
+</head>
+<body>
+  <!-- Decap CMS: el editor se carga desde internet y lee admin/config.yml -->
+  <script>window.CMS_MANUAL_INIT = true;</script>
+  <script src="https://unpkg.com/decap-cms@3.17.3/dist/decap-cms.js"></script>
+  <script>
+    // La dirección de la web (pages.dev o el dominio propio) se detecta sola
+    CMS.init({ config: { backend: { base_url: window.location.origin } } });
+
+    // Vista previa de las obras con el aspecto de la web
+    CMS.registerPreviewStyle("/css/styles.css");
+    const h = window.h || (window.React && window.React.createElement);
+    CMS.registerPreviewTemplate("obras", ({ entry, getAsset }) => {
+      const d = entry.get("data");
+      const imgs = (d.get("imagenes") || []).toJS ? d.get("imagenes").toJS() : [];
+      const bloques = d.get("bloques") ? d.get("bloques").toJS() : [];
+      return h("div", { style: { background: "#0b0b0b", minHeight: "100vh", padding: "2rem", color: "#eaeaea" } },
+        h("div", { className: "work-detail" },
+          imgs[0] ? h("div", { className: "work-media-list" }, h("img", { className: "media-slide", src: getAsset(imgs[0]).toString() })) : null,
+          h("div", { className: "work-caption" },
+            h("h2", null, d.get("titulo")),
+            h("p", { className: "work-meta" }, d.get("mostrarNombre") === false ? d.get("anio") : `Alberto Alber, ${d.get("anio") || ""}`),
+            d.get("texto") ? h("p", { className: "work-text" }, d.get("texto")) : null,
+            bloques.length ? h("div", { className: "work-details" }, bloques.map((b, i) => h("div", { key: i },
+              b.titulo ? h("h3", { className: "details-heading" }, b.titulo) : null,
+              (b.lineas || "").split("\n").filter(Boolean).map((l, j) => h("p", { key: j }, l))
+            ))) : null
+          ),
+          imgs.length > 1 ? h("p", { style: { marginTop: "2rem", color: "#999" } }, `+ ${imgs.length - 1} imágenes más`) : null
+        )
+      );
+    });
+  </script>
+</body>
+</html>

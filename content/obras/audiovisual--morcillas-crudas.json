@@ -1,0 +1,33 @@
+{
+  "publicada": true,
+  "titulo": "Morcillas crudas",
+  "seccion": "audiovisual",
+  "orden": 80,
+  "anio": "2018",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/morcillas-crudas/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/morcillas-crudas/01.jpg",
+    "/img/audiovisual/morcillas-crudas/02.jpg",
+    "/img/audiovisual/morcillas-crudas/03.jpg",
+    "/img/audiovisual/morcillas-crudas/04.jpg",
+    "/img/audiovisual/morcillas-crudas/05.jpg"
+  ],
+  "texto": "Mediometraje adscrito a los códigos de la comedia negra y el cine gore más visceral, que subvierte de forma frontal los tabúes de la representación a través de una empresa familiar dedicada a la producción clandestina de embutidos elaborados con menstruación. La trama explora los límites de la abyección institucional y mercantil hasta la irrupción insólita del afecto entre la víctima y su verdugo, generando una tensión turbia entre lo grotesco y la ternura desquiciada.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección y montaje: Alberto Alber.\nGuion: Alberto Alber, Paula Ruiz y Elena Carmona.\nEfectos especiales: Alberto Alber y Enrique Graciani.\nMúsica: Rotten Parabrise.\nReparto: Sav, Elena Marín, Sara Guerrero, Enrique Graciani, Rubén Milán, María Paula Jiménez, Beatriz Livadariu, Alberto Alber, Andrea Sánchez, Ainhoa Sánchez, Ismael Ortiz, Rebeca Moreno, Sara Navarro y Juana."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=u3yhhea2yr4"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

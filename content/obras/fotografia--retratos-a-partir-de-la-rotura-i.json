@@ -1,0 +1,27 @@
+{
+  "publicada": true,
+  "titulo": "Retratos a partir de la rotura I",
+  "seccion": "fotografia",
+  "orden": 110,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/fotografia/retratos-a-partir-de-la-rotura-i/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/01.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/02.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/03.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/04.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/05.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/06.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/07.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/08.jpg",
+    "/img/fotografia/retratos-a-partir-de-la-rotura-i/09.jpg"
+  ],
+  "texto": "Despliegue fotográfico centrado en la supervivencia matérica del cuerpo a través de la fragmentación de moldes escultóricos distorsionados en cera y escayola. La obra plantea una reflexión sobre cómo la fijación física del pasado en la materia opera como un doble de la instantánea fotográfica, disolviendo las fronteras entre la realidad del cuerpo y su representación inerte.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

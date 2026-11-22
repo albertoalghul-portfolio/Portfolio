@@ -1,0 +1,29 @@
+{
+  "publicada": true,
+  "titulo": "Vino y música Aranjuez 1753",
+  "seccion": "publicaciones",
+  "orden": 160,
+  "anio": "2023",
+  "mostrarNombre": false,
+  "portada": "",
+  "miniatura": "/img/publicaciones/vino-y-musica-aranjuez-1753/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/vino-y-musica-aranjuez-1753/01.jpg"
+  ],
+  "texto": "Obra escrita e ilustrada por Enrique Graciani, cuyo trabajo completo de dibujo se realizó íntegramente empleando vino como pigmento principal sobre el papel, fusionando la técnica pictórica tradicional con la narrativa gráfica. Alberto Alber se encargó de la edición, la corrección de color y la maquetación, trasladando al formato impreso la materialidad de este pigmento insólito.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Autor: Enrique Graciani.\nEdición, corrección de color y maquetación: Alberto Alber.\nEspecificaciones técnicas: A4 | 120 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": [
+    {
+      "texto": "Ayuntamiento de Aranjuez: presentación del libro",
+      "url": "https://www.aranjuez.es/eventos/presentacion-del-libro-vino-y-musica-aranjuez-1753/"
+    }
+  ]
+}

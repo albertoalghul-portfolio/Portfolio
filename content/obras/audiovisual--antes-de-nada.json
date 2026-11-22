@@ -1,0 +1,31 @@
+{
+  "publicada": true,
+  "titulo": "Antes de nada",
+  "seccion": "audiovisual",
+  "orden": 40,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/antes-de-nada/portada.jpg",
+  "encuadre": "57% 50%",
+  "imagenes": [
+    "/img/audiovisual/antes-de-nada/01.jpg",
+    "/img/audiovisual/antes-de-nada/02.jpg",
+    "/img/audiovisual/antes-de-nada/03.jpg"
+  ],
+  "texto": "Pieza de autoficción conceptual que aborda el trauma y la huella del suicidio mediante la recreación escrupulosa de los instantes previos a una muerte autoinfligida. El gesto doméstico, casi banal, del afeitado se eleva aquí a la categoría de ceremonia trágica y umbral liminal donde convergen el filo frío del acero, la sangre, el agua y la mutación. Al asumir la interpretación en primera persona, el autor canaliza la dualidad del duelo y convierte el ritual en un acto de introspección e inmolación simbólica.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Realización y protagonismo: Alberto Alber."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=BRq5vg5wNUQ"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Las edades",
+  "seccion": "escultura-e-instalacion",
+  "orden": 70,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/las-edades/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/las-edades/01.jpg",
+    "/img/escultura-e-instalacion/las-edades/02.jpg",
+    "/img/escultura-e-instalacion/las-edades/03.jpg",
+    "/img/escultura-e-instalacion/las-edades/04.jpg",
+    "/img/escultura-e-instalacion/las-edades/05.jpg",
+    "/img/escultura-e-instalacion/las-edades/06.jpg"
+  ],
+  "texto": "Instalación videográfica en la que una secuencia de autorretratos fotográficos del autor, desde su infancia hasta el presente, se proyecta en bucle continuo sobre la superficie neutra y anónima de la cabeza de un maniquí. El solapamiento ininterrumpido de las imágenes genera un efecto alucinatorio de metamorfosis perpetua sobre el rostro inerte.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

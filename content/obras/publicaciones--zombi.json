@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Zombi",
+  "seccion": "publicaciones",
+  "orden": 120,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/zombi/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/zombi/01.jpg"
+  ],
+  "texto": "Ejercicio radical de arqueología autoral y temporal que une en un mismo volumen planchas dibujadas por el autor en 2012 con su continuación desarrollada en 2021, colisionando dos etapas vitales y creativas distantes en el tiempo.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A5 | Portada a color, interiores en blanco y negro."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

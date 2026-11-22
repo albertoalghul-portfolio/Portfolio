@@ -79,8 +79,7 @@ burgerToggle.addEventListener("click", () => navMenu.classList.toggle("open"));
    -------------------------------------------------------------------------- */
 const worksOf = (sectionId) => WORKS.filter(w => w.section === sectionId);
 
-/* Secciones cuyas previsualizaciones tienen formato A4 vertical (carteles, cubiertas) */
-const A4_SECTIONS = ["audiovisual", "publicaciones", "exposiciones"];
+/* Las secciones con formato A4 vertical (A4_SECTIONS) se eligen en el gestor de contenidos */
 const formatClass = (sectionId) => A4_SECTIONS.includes(sectionId) ? " is-a4" : "";
 
 function metaLine(work) {
@@ -141,6 +140,7 @@ function renderGrid(section) {
             <img src="${w.thumb}" alt="${w.title}" loading="lazy"${w.thumbPos ? ` style="object-position: ${w.thumbPos}"` : ""}>
             <div class="title-overlay"><span>${w.title}</span></div>
           </div>
+          <span class="work-caption-mobile">${w.title}</span>
           <span class="work-year">${w.year || ""}</span>
         </a>`).join("")}
     </div>`;
@@ -158,13 +158,9 @@ function renderWork(section, work) {
   const total = work.media.length;
   const multi = total > 1;
   const others = worksOf(section.id).filter(w => w.slug !== work.slug);
-  /* La descripción es la primera línea que no es una ficha tipo "Edición: ..." o
-     "Reparto: ...". El resto (ficha técnica, créditos, premios) va debajo en pequeño. */
-  const lines = work.text || [];
-  const isLabel = (l) => /^[^.:]{2,60}:/.test(l);
-  const mainIdx = lines.findIndex(l => !isLabel(l));
-  const mainText = mainIdx >= 0 ? lines[mainIdx] : "";
-  const details = lines.filter((_, i) => i !== mainIdx);
+  /* Descripción principal y, debajo en pequeño, los bloques (ficha técnica,
+     créditos, "Selecciones y reconocimientos"...) tal como se escriben en el gestor */
+  const blocks = work.blocks || [];
 
   mainApp.innerHTML = `
     <div class="work-detail">
@@ -172,9 +168,9 @@ function renderWork(section, work) {
         <a href="#/${section.id}">← Volver a ${section.name}</a>
         ${multi ? `
           <div class="media-nav">
-            <button type="button" class="media-nav-btn" data-dir="-1">Anterior</button>
+            <button type="button" class="media-nav-btn" data-dir="-1" aria-label="Imagen anterior">‹ Anterior</button>
             <span class="media-counter">1 / ${total}</span>
-            <button type="button" class="media-nav-btn" data-dir="1">Siguiente</button>
+            <button type="button" class="media-nav-btn" data-dir="1" aria-label="Imagen siguiente">Siguiente ›</button>
           </div>` : ""}
       </div>
 
@@ -187,9 +183,9 @@ function renderWork(section, work) {
       <div class="work-caption">
         <h2>${work.title}</h2>
         <p class="work-meta">${metaLine(work)}</p>
-        ${mainText ? `<p class="work-text">${mainText}</p>` : ""}
-        ${details.length ? `<div class="work-details">${details.map(l =>
-          l.trim().endsWith(":") ? `<h3 class="details-heading">${l.replace(/:\s*$/, "")}</h3>` : `<p>${l}</p>`
+        ${work.text ? `<p class="work-text">${work.text}</p>` : ""}
+        ${blocks.length ? `<div class="work-details">${blocks.map(b =>
+          (b.title ? `<h3 class="details-heading">${b.title}</h3>` : "") + b.lines.map(l => `<p>${l}</p>`).join("")
         ).join("")}</div>` : ""}
         ${workActionsHtml(work)}
         ${work.links && work.links.length ? `
@@ -232,6 +228,25 @@ function renderWork(section, work) {
       if (e.key === "ArrowLeft") show(idx - 1);
       if (e.key === "ArrowRight") show(idx + 1);
     };
+
+    /* En el móvil: deslizar el dedo sobre la imagen, o tocar su mitad izquierda / derecha */
+    const viewer = mainApp.querySelector(".work-media-list");
+    let startX = null, startY = null;
+    viewer.addEventListener("touchstart", (e) => {
+      startX = e.touches[0].clientX; startY = e.touches[0].clientY;
+    }, { passive: true });
+    viewer.addEventListener("touchend", (e) => {
+      if (startX === null) return;
+      const dx = e.changedTouches[0].clientX - startX;
+      const dy = e.changedTouches[0].clientY - startY;
+      startX = null;
+      if (Math.abs(dx) > 40 && Math.abs(dx) > Math.abs(dy)) show(idx + (dx < 0 ? 1 : -1));
+    });
+    viewer.addEventListener("click", (e) => {
+      const r = viewer.getBoundingClientRect();
+      show(idx + (e.clientX < r.left + r.width / 2 ? -1 : 1));
+    });
+    viewer.classList.add("is-clickable");
   }
 }
 

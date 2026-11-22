@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 1",
+  "seccion": "publicaciones",
+  "orden": 130,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/marrano-1/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/marrano-1/01.jpg"
+  ],
+  "texto": "Segunda entrega de la publicación periódica colectiva, que amplía su formato y consolida un corpus de narraciones breves marcadas por la incorrección política y la experimentación gráfica.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A4 | 30 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "Sinforofilia",
+  "seccion": "publicaciones",
+  "orden": 40,
+  "anio": "2025",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/sinforofilia/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/sinforofilia/05.jpg",
+    "/img/publicaciones/sinforofilia/01.jpg",
+    "/img/publicaciones/sinforofilia/02.jpg",
+    "/img/publicaciones/sinforofilia/03.jpg",
+    "/img/publicaciones/sinforofilia/04.jpg"
+  ],
+  "texto": "Objeto impreso que recopila la serie de yuxtaposiciones entre cuerpos impresos en papel vegetal y archivos de accidentes de tráfico, explorando los límites del erotismo industrial y la violencia mecánica.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Bancarrota* Ediciones.\nEspecificaciones técnicas: A5 | 32 páginas."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

@@ -1,0 +1,26 @@
+{
+  "publicada": true,
+  "titulo": "Re-colectivo",
+  "seccion": "exposiciones",
+  "orden": 120,
+  "anio": "2022",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/re-colectivo/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/re-colectivo/06.jpg",
+    "/img/exposiciones/re-colectivo/01.jpg",
+    "/img/exposiciones/re-colectivo/02.jpg",
+    "/img/exposiciones/re-colectivo/03.jpg",
+    "/img/exposiciones/re-colectivo/04.jpg",
+    "/img/exposiciones/re-colectivo/05.jpg",
+    "/img/exposiciones/re-colectivo/07.jpg",
+    "/img/exposiciones/re-colectivo/08.jpg"
+  ],
+  "texto": "Exposición colectiva. Centro Joven de Cuenca (Cuenca).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

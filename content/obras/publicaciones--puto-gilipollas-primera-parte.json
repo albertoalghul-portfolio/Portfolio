@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Puto Gilipollas: Primera parte",
+  "seccion": "publicaciones",
+  "orden": 140,
+  "anio": "2020",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/puto-gilipollas-primera-parte/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/puto-gilipollas-primera-parte/01.jpg"
+  ],
+  "texto": "Volumen monográfico de autoficción que recopila historietas cotidianas, absurdas y estrambóticas protagonizadas por el alter ego del autor. La obra transita por múltiples registros plásticos y estilos de dibujo para cartografiar los callejones sin salida de la identidad juvenil.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente.\nEspecificaciones técnicas: A4 | 40 páginas | Todo a color."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

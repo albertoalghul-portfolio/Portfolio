@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 0",
+  "seccion": "dibujo-y-pintura",
+  "orden": 90,
+  "anio": "2019",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/dibujo-y-pintura/marrano-0/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/dibujo-y-pintura/marrano-0/02.jpg",
+    "/img/dibujo-y-pintura/marrano-0/03.jpg",
+    "/img/dibujo-y-pintura/marrano-0/04.jpg",
+    "/img/dibujo-y-pintura/marrano-0/05.jpg",
+    "/img/dibujo-y-pintura/marrano-0/01.jpg"
+  ],
+  "texto": "Ilustraciones, planchas de dibujo y viñetas originales de cómic underground cocreadas junto a Sav Ubuesco, sentando las bases gráficas y el trazo corrosivo de la publicación.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Especificaciones técnicas: A5 | 16 páginas | Portada a color, interiores en blanco y negro."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

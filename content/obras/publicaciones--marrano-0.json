@@ -1,0 +1,24 @@
+{
+  "publicada": true,
+  "titulo": "Marrano 0",
+  "seccion": "publicaciones",
+  "orden": 150,
+  "anio": "2019",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/publicaciones/marrano-0/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/publicaciones/marrano-0/01.jpg"
+  ],
+  "texto": "Revista pionera de cómic underground e independiente. Concebida desde una estética corrosiva y un humor negro intransigente, sienta las bases conceptuales y gráficas de este proyecto editorial alternativo.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Edición: Independiente (cocreado con Sav Ubuesco).\nEspecificaciones técnicas: A5 | 16 páginas | Portada a color, interiores en blanco y negro."
+    }
+  ],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

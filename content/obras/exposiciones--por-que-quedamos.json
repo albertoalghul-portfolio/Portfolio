@@ -1,0 +1,25 @@
+{
+  "publicada": true,
+  "titulo": "¿Por qué quedamos?",
+  "seccion": "exposiciones",
+  "orden": 60,
+  "anio": "2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/por-que-quedamos/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/por-que-quedamos/02.jpg",
+    "/img/exposiciones/por-que-quedamos/01.jpg"
+  ],
+  "texto": "Exposición individual. Galería Lemur (Madrid).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": [
+    {
+      "texto": "Formidable Books: ¿Por qué quedamos?",
+      "url": "https://www.formidablebooks.com/books/libro-book-por-que-quedamos-alberto-alber/"
+    }
+  ]
+}

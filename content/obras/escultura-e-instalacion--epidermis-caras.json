@@ -1,0 +1,23 @@
+{
+  "publicada": true,
+  "titulo": "Epidermis caras",
+  "seccion": "escultura-e-instalacion",
+  "orden": 30,
+  "anio": "2025–2026",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/escultura-e-instalacion/epidermis-caras/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/escultura-e-instalacion/epidermis-caras/01.jpg",
+    "/img/escultura-e-instalacion/epidermis-caras/02.jpg",
+    "/img/escultura-e-instalacion/epidermis-caras/03.jpg",
+    "/img/escultura-e-instalacion/epidermis-caras/04.jpg",
+    "/img/escultura-e-instalacion/epidermis-caras/05.jpg"
+  ],
+  "texto": "Desarrollo escultórico específico que aísla la topografía facial y los relieves craneales a través de moldes de alta densidad y texturas orgánicas. La pieza profundiza en la noción de máscara y desfiguración, convirtiendo el rostro en un mapa de cicatrices y accidentes matéricos que interroga los límites de la identidad y la efigie en la escultura actual.",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

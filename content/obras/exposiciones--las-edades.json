@@ -1,0 +1,21 @@
+{
+  "publicada": true,
+  "titulo": "Las edades",
+  "seccion": "exposiciones",
+  "orden": 130,
+  "anio": "2021",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/exposiciones/las-edades/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/exposiciones/las-edades/01.jpg",
+    "/img/exposiciones/las-edades/02.jpg",
+    "/img/exposiciones/las-edades/03.jpg"
+  ],
+  "texto": "Exposición individual. Facultad de Bellas Artes, UCLM (Cuenca).",
+  "bloques": [],
+  "videos": [],
+  "imdb": "",
+  "enlaces": []
+}

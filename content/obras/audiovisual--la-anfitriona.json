@@ -1,0 +1,39 @@
+{
+  "publicada": true,
+  "titulo": "La anfitriona",
+  "seccion": "audiovisual",
+  "orden": 30,
+  "anio": "2022",
+  "mostrarNombre": true,
+  "portada": "",
+  "miniatura": "/img/audiovisual/la-anfitriona/portada.jpg",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/la-anfitriona/01.jpg",
+    "/img/audiovisual/la-anfitriona/02.jpg",
+    "/img/audiovisual/la-anfitriona/03.jpg",
+    "/img/audiovisual/la-anfitriona/04.jpg",
+    "/img/audiovisual/la-anfitriona/05.jpg",
+    "/img/audiovisual/la-anfitriona/06.jpg",
+    "/img/audiovisual/la-anfitriona/07.jpg",
+    "/img/audiovisual/la-anfitriona/08.jpg",
+    "/img/audiovisual/la-anfitriona/09.jpg",
+    "/img/audiovisual/la-anfitriona/10.jpg",
+    "/img/audiovisual/la-anfitriona/11.jpg"
+  ],
+  "texto": "Incursión autogestionada en los márgenes del cine de serie B y el terror corporal, concebida desde una militancia artesanal y colectiva. La narración sigue a tres jóvenes que transportan una carga clandestina hasta que una avería mecánica los sitúa en el epicentro de sus propias pesadillas, obligándoles a librar una batalla desesperada por la supervivencia frente a una entidad monstruosa que se nutre de la carne y la sangre.",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección, guion, montaje y fotografía: Alberto Alber.\nEfectos especiales: Alberto Alber.\nAsistencia de dirección: David Disculpas.\nMúsica: Rotten Parabrise.\nReparto: Celia Higueras, Andrea Sánchez Rodríguez, Fabio Delgado, Enrique Graciani, Rubén Milán, Elena Carmona, Pupe Marín, Sav, Paloma Anastasio, Felipe Miguel, Sara Guerrero y David Disculpas."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=fHg18Y6UIZY"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}
