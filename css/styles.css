@@ -256,11 +256,27 @@ body.is-home .home-social-block { display: flex; }
   padding: 1.5rem 0;
 }
 
-.work-card {
-  position: relative;
+/* Cada obra: la imagen y, debajo, el año */
+.work-item {
+  display: block;
   flex: 0 0 290px;
   width: 290px;
   max-width: 100%;
+}
+
+.work-year {
+  display: block;
+  margin-top: 0.45rem;
+  font-size: 0.8rem;
+  letter-spacing: 0.04em;
+  text-align: right;
+  color: rgba(255, 255, 255, 0.8);
+  text-shadow: 0 0 6px rgba(0, 0, 0, 0.9), 0 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+.work-card {
+  position: relative;
+  width: 100%;
   aspect-ratio: 4 / 5;
   overflow: hidden;
   background: rgba(255, 255, 255, 0.03);
@@ -408,6 +424,34 @@ body.is-home .home-social-block { display: flex; }
 }
 
 .work-details p { margin: 0 0 0.35rem; }
+
+/* Botones Ver vídeo / Ver en IMDb */
+.work-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.work-btn {
+  display: inline-block;
+  padding: 0.6rem 1.4rem;
+  border: 1px solid rgba(255, 255, 255, 0.8);
+  background: rgba(0, 0, 0, 0.35);
+  color: #ffffff;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  text-shadow: none;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+.work-btn:hover { background: #ffffff; color: #000000; }
+
+/* Enlaces de interés */
+.work-links { font-size: 0.82rem; line-height: 1.5; }
+.work-links p { margin: 0 0 0.45rem; }
+.work-links a { color: #ffffff; text-decoration: underline; text-underline-offset: 3px; }
+.work-links a:hover { color: #bbbbbb; }
 
 /* Encabezados dentro de la ficha, como "Selecciones y reconocimientos" */
 .details-heading {

@@ -18,10 +18,10 @@ const SITE = {
 /* Secciones del menú, en el orden en que aparecen.
    "id" es lo que sale en la dirección (#/fotografia) y enlaza con las obras de data.js */
 const SECTIONS = [
-  { id: "dibujo-y-pintura",        name: "Dibujo y pintura" },
   { id: "audiovisual",             name: "Audiovisual" },
   { id: "escultura-e-instalacion", name: "Escultura e Instalación" },
   { id: "fotografia",              name: "Fotografía" },
+  { id: "dibujo-y-pintura",        name: "Dibujo y pintura" },
   { id: "publicaciones",           name: "Publicaciones" },
   { id: "exposiciones",            name: "Exposiciones" },
   { id: "sobre-mi",                name: "Sobre mí" }

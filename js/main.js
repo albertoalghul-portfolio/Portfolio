@@ -88,6 +88,14 @@ function metaLine(work) {
   return work.year ? `${SITE.artist}, ${work.year}` : SITE.artist;
 }
 
+/* Botones "Ver vídeo" y "Ver en IMDb" (campos video e imdb de cada obra en data.js) */
+function workActionsHtml(work) {
+  const buttons = [];
+  if (work.video) buttons.push(`<a class="work-btn" href="${work.video}" target="_blank" rel="noopener">▶ Ver vídeo</a>`);
+  if (work.imdb) buttons.push(`<a class="work-btn" href="${work.imdb}" target="_blank" rel="noopener">Ver en IMDb</a>`);
+  return buttons.length ? `<div class="work-actions">${buttons.join("")}</div>` : "";
+}
+
 function renderHome() {
   document.body.className = "is-home";
   document.title = `${SITE.artist} | Inicio`;
@@ -125,9 +133,12 @@ function renderGrid(section) {
   mainApp.innerHTML = `
     <div class="works-grid${formatClass(section.id)}">
       ${works.map(w => `
-        <a href="#/${section.id}/${w.slug}" class="work-card">
-          <img src="${w.thumb}" alt="${w.title}" loading="lazy">
-          <div class="title-overlay"><span>${w.title}</span></div>
+        <a href="#/${section.id}/${w.slug}" class="work-item">
+          <div class="work-card">
+            <img src="${w.thumb}" alt="${w.title}" loading="lazy"${w.thumbPos ? ` style="object-position: ${w.thumbPos}"` : ""}>
+            <div class="title-overlay"><span>${w.title}</span></div>
+          </div>
+          <span class="work-year">${w.year || ""}</span>
         </a>`).join("")}
     </div>`;
 }
@@ -147,7 +158,7 @@ function renderWork(section, work) {
   /* La descripción es la primera línea que no es una ficha tipo "Edición: ..." o
      "Reparto: ...". El resto (ficha técnica, créditos, premios) va debajo en pequeño. */
   const lines = work.text || [];
-  const isLabel = (l) => /^[^.:]{2,40}:/.test(l);
+  const isLabel = (l) => /^[^.:]{2,60}:/.test(l);
   const mainIdx = lines.findIndex(l => !isLabel(l));
   const mainText = mainIdx >= 0 ? lines[mainIdx] : "";
   const details = lines.filter((_, i) => i !== mainIdx);
@@ -177,6 +188,12 @@ function renderWork(section, work) {
         ${details.length ? `<div class="work-details">${details.map(l =>
           l.trim().endsWith(":") ? `<h3 class="details-heading">${l.replace(/:\s*$/, "")}</h3>` : `<p>${l}</p>`
         ).join("")}</div>` : ""}
+        ${workActionsHtml(work)}
+        ${work.links && work.links.length ? `
+          <div class="work-links">
+            <h3 class="details-heading">Enlaces de interés</h3>
+            ${work.links.map(([label, url]) => `<p><a href="${url}" target="_blank" rel="noopener">${label}</a></p>`).join("")}
+          </div>` : ""}
       </div>
 
       ${others.length ? `
