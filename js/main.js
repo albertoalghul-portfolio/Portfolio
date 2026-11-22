@@ -88,10 +88,13 @@ function metaLine(work) {
   return work.year ? `${SITE.artist}, ${work.year}` : SITE.artist;
 }
 
-/* Botones "Ver vídeo" y "Ver en IMDb" (campos video e imdb de cada obra en data.js) */
+/* Botones "Ver vídeo" y "Ver en IMDb".
+   En data.js: video = [["Ver vídeo", "https://..."]] (puede haber varios) e imdb = "https://..." */
 function workActionsHtml(work) {
   const buttons = [];
-  if (work.video) buttons.push(`<a class="work-btn" href="${work.video}" target="_blank" rel="noopener">▶ Ver vídeo</a>`);
+  (work.video || []).forEach(([label, url]) =>
+    buttons.push(`<a class="work-btn" href="${url}" target="_blank" rel="noopener">▶ ${label}</a>`)
+  );
   if (work.imdb) buttons.push(`<a class="work-btn" href="${work.imdb}" target="_blank" rel="noopener">Ver en IMDb</a>`);
   return buttons.length ? `<div class="work-actions">${buttons.join("")}</div>` : "";
 }
@@ -200,7 +203,7 @@ function renderWork(section, work) {
         <div class="related-works${formatClass(section.id)}">
           ${others.map(w => `
             <a href="#/${section.id}/${w.slug}" class="related-card">
-              <div class="related-thumb"><img src="${w.thumb}" alt="${w.title}" loading="lazy"></div>
+              <div class="related-thumb"><img src="${w.thumb}" alt="${w.title}" loading="lazy"${w.thumbPos ? ` style="object-position: ${w.thumbPos}"` : ""}></div>
               <span class="related-title">${w.title}</span>
             </a>`).join("")}
         </div>` : ""}
