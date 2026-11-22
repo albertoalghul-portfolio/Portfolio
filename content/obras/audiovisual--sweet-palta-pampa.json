@@ -1,0 +1,30 @@
+{
+  "publicada": true,
+  "titulo": "Sweet Palta - Pampa",
+  "seccion": "audiovisual",
+  "orden": 160,
+  "anio": "2021",
+  "mostrarNombre": false,
+  "portada": "/img/audiovisual/sweet-palta-pampa/01.jpg",
+  "miniatura": "",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/sweet-palta-pampa/01.jpg",
+    "/img/audiovisual/sweet-palta-pampa/02.jpg"
+  ],
+  "texto": "",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección: Sav Ubuesco y David Disculpas.\nAyudante de dirección y etalonaje: Alberto Alber.\nDirección de arte: Lucia Con Pecas.\nEstilismo: FranketPC y Lucia Con Pecas.\nCréditos: Maria P. Trillo.\nFX: Nacho Ureña y Alberto Alber.\nAgradecimientos: Javier Oleaga, Jose Doel, hasidolawarrior, Jekelo e Iris Banegas."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=uetlObkAmZs"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

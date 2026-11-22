@@ -1,0 +1,30 @@
+{
+  "publicada": true,
+  "titulo": "Silke - Est Anima (Prod. Tessak)",
+  "seccion": "audiovisual",
+  "orden": 150,
+  "anio": "2021",
+  "mostrarNombre": false,
+  "portada": "/img/audiovisual/silke-est-anima/01.jpg",
+  "miniatura": "",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/silke-est-anima/01.jpg",
+    "/img/audiovisual/silke-est-anima/02.jpg"
+  ],
+  "texto": "",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección: Sav Ubuesco y David Disculpas.\nAyudante de dirección, foto fija, edición y etalonaje: Alberto Alber.\nDirección de arte: Lucia Con Pecas.\nLettering: TIOVIVO Graphics.\nEstilismo: Lucia Con Pecas.\nFX: Nacho Ureña.\nAgradecimientos: Rebeca Ortega, Elena Marín, Rebeca Moreno y Sara Sánchez."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=APKInCZEoMw"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

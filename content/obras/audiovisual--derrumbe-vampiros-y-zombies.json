@@ -1,0 +1,29 @@
+{
+  "publicada": true,
+  "titulo": "Derrumbe - Vampiros y zombies",
+  "seccion": "audiovisual",
+  "orden": 140,
+  "anio": "2022",
+  "mostrarNombre": false,
+  "portada": "/img/audiovisual/derrumbe-vampiros-y-zombies/01.jpg",
+  "miniatura": "",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/derrumbe-vampiros-y-zombies/01.jpg"
+  ],
+  "texto": "",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Dirección: David Disculpas y Sav Ubuesco.\nColor, props, esculturas y arte: Alberto Alber."
+    }
+  ],
+  "videos": [
+    {
+      "texto": "Ver vídeo",
+      "url": "https://www.youtube.com/watch?v=a1i--L8GHmc"
+    }
+  ],
+  "imdb": "",
+  "enlaces": []
+}

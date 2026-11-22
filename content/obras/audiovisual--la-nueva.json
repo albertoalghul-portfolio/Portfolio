@@ -1,0 +1,28 @@
+{
+  "publicada": true,
+  "titulo": "La nueva",
+  "seccion": "audiovisual",
+  "orden": 130,
+  "anio": "2022",
+  "mostrarNombre": false,
+  "portada": "/img/audiovisual/la-nueva/01.jpg",
+  "miniatura": "",
+  "encuadre": "50% 50%",
+  "imagenes": [
+    "/img/audiovisual/la-nueva/01.jpg",
+    "/img/audiovisual/la-nueva/02.jpg",
+    "/img/audiovisual/la-nueva/03.jpg",
+    "/img/audiovisual/la-nueva/04.jpg",
+    "/img/audiovisual/la-nueva/05.jpg"
+  ],
+  "texto": "",
+  "bloques": [
+    {
+      "titulo": "",
+      "lineas": "Escultura, props y utilería: Alberto Alber."
+    }
+  ],
+  "videos": [],
+  "imdb": "https://www.imdb.com/es/title/tt19898336/",
+  "enlaces": []
+}

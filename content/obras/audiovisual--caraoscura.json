@@ -1,22 +1,25 @@
 {
-  "publicada": false,
+  "publicada": true,
+  "titulo": "Caraoscura",
   "seccion": "audiovisual",
+  "orden": 120,
   "anio": "2022",
   "mostrarNombre": false,
-  "portada": "",
+  "portada": "/img/audiovisual/caraoscura/01.jpg",
   "miniatura": "",
   "encuadre": "50% 50%",
-  "imagenes": [],
+  "imagenes": [
+    "/img/audiovisual/caraoscura/01.jpg",
+    "/img/audiovisual/caraoscura/02.jpg"
+  ],
   "texto": "",
-  "videos": [],
-  "enlaces": [],
-  "titulo": "Caraoscura",
-  "orden": 120,
   "bloques": [
     {
       "titulo": "",
       "lineas": "Escultura, props y utilería: Alberto Alber."
     }
   ],
-  "imdb": "https://www.imdb.com/title/tt18816178/"
+  "videos": [],
+  "imdb": "https://www.imdb.com/es/title/tt18816178/",
+  "enlaces": []
 }
